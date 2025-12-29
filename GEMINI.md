@@ -49,3 +49,63 @@ Each subdirectory represents a self-contained "project" for a specific character
 
 ### 5. Technical & Version Control
 *   **Git Sync:** **CRITICAL.** After modifying any file, changes must be committed and pushed to GitHub immediately to ensure the remote repository is always current.
+
+---
+
+# Character Specific Contexts
+
+## 💀 Silas Graves (Wizard - Necromancer)
+
+### Overview
+Silas is a Level 7 Rock Gnome Wizard (Necromancer) in a *Curse of Strahd* campaign.
+*   **Philosophy:** "Benevolent Necromancer" (Neutral Good). Views necromancy as extending the time a soul has to fulfill its purpose. Treats undead (Rose, Thorn, Mook) as companions.
+*   **Role:** Controller / Utility / Off-Tank (via Undead).
+
+### Operational Rules
+*   **Undead Companions:** Silas maintains a permanent retinue via *Animate Dead*. Stats scale with **Wizard Level**:
+    *   **HP Bonus:** +Wizard Level
+    *   **Damage Bonus:** +Proficiency Bonus
+    *   *Current Stats (Lvl 7):* +7 HP, +3 Damage.
+*   **File Sync:** Updating `character-sheet.md` requires syncing `spells.md`, `combatcheatsheet.md`, and `build-plan.md`.
+
+### Foundry VTT Macros
+**Mage Armor Toggle:**
+```javascript
+const actor = canvas.tokens.controlled[0]?.actor || game.user.character;
+if (!actor) return ui.notifications.warn("Please select a token!");
+const isMageArmor = actor.system.attributes.ac.calc === "mage";
+if (isMageArmor) {
+    await actor.update({"system.attributes.ac.calc": "default"});
+    ui.notifications.info("Mage Armor OFF (Returning to Default)");
+} else {
+    await actor.update({"system.attributes.ac.calc": "mage"});
+    ui.notifications.info("Mage Armor ON (13 + Dex)");
+}
+```
+
+---
+
+## ❄️ Kram Gor (Paladin - Conquest)
+
+### Overview
+Kram Gor is a Level 6 Goliath Paladin (Oath of Conquest) in *Icewind Dale: Rime of the Frostmaiden*.
+*   **Deity:** Auril, the Frostmaiden.
+*   **Backstory:** Former "Path of the World Tree" Barbarian who died and was resurrected by Auril. He traded the warm voice of the Tree for the cold silence of the Frostmaiden.
+*   **Theme:** Ice, Silence, Fear, Conquest, Endurance.
+
+### Rules & Mechanics (2024 Revision)
+*   **Divine Smite:** Bonus Action spell, once per turn.
+*   **Channel Divinity:** 2 uses per Short Rest.
+*   **Weapon Masteries:** Cleave (Greataxe), Graze (Greatsword).
+
+### Roleplay & Voice
+*   **Voice:** Kram speaks rarely. Sentences are short, direct, and pragmatic. He is not cruel, but unyielding like winter.
+    *   *Good:* "Silence falls." / "You break." / "Winter takes you."
+    *   *Bad:* Long monologues, fiery passion, hesitation.
+*   **Party Dynamics:**
+    *   **Inara (Warlock):** His anchor to humanity. Protective.
+    *   **Loam (Cleric):** A new source of warmth he is learning to accept.
+
+### Thematic Consistency
+*   **Flavor Text:** Describe abilities using imagery of frost, ice, silence, shattering glaciers, and numbing cold.
+*   **Frostmaiden's Brand:** On inner left forearm, glows when casting.
