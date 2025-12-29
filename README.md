@@ -10,6 +10,7 @@ A centralized portfolio of Dungeons & Dragons 5th Edition characters, tracking t
 | <img src="kramgor/kramgor_portrait.png" width="200" alt="Kram Gor Portrait"> | **[Kram Gor](kramgor/)**<br>_Paladin (Oath of Conquest) 6_<br>A Goliath resurrected by Auril, the Frostmaiden. Once a warm-hearted barbarian, he is now a silent conqueror wielding fear and cold as his weapons in the frozen north. |
 | <img src="silasgraves/Silas_Graves-Square.png" width="200" alt="Silas Portrait"> | **[Silas Graves](silasgraves/)**<br>_Wizard (Necromancer) 7_<br>A benevolent Rock Gnome Necromancer. Silas views his undead companions not as tools, but as souls given a second chance to fulfill a purpose. Currently traversing the mists of Barovia. |
 | <img src="vesper/vesper_portrait.png" width="200" alt="Vesper Portrait"> | **[Vesper](vesper/)**<br>_Druid (Circle of Stars) 9_<br>A small Scourge Aasimar channeling the terrifying, burning power of the cosmos. Vesper is a vessel for star-stuff, balancing fragile mortality with infinite power. |
+| <div style="width:200px; height:200px; display:flex; align-items:center; justify-content:center; background:#333; color:#ccc;">No Portrait</div> | **[Chance McGinty](chancemcginty/)**<br>_Monk (Warrior of the Open Hand) 3_<br>A jovial Halfling traveler who sits by the road with a sign that says "Test Your Luck." He fights for the joy of the sport and the thrill of the gamble. |
 
 ---
 

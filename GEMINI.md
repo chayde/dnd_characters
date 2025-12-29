@@ -15,6 +15,7 @@ Each subdirectory represents a self-contained "project" for a specific character
 | Directory | Character | Class / Level | Theme / Archetype |
 | :--- | :--- | :--- | :--- |
 | **`bwaynebruce/`** | **Bwayne** | Paladin (Vengeance) 9 | **The Divine Enforcer.** Former mob enforcer turned Oath of Vengeance Paladin. Theme: Retribution, Urban Justice. |
+| **`chancemcginty/`** | **`Chance McGinty`** | **`Monk (Open Hand) 3`** | **`The Roadside Brawler.`** A jovial Halfling traveler who challenges strangers to "test their luck." Theme: Luck, Speed, Agility. |
 | **`hrimgarfrostborn/`** | **Hrimgar** | Ranger 2 / Druid (Sea) 7 | **The Winter Storm.** Frost Giant ancestry Goliath. Becomes a massive elemental force of ice and water. |
 | **`klausvonstauffer/`** | **Klaus** | Fighter 2 / Wizard (Scribes) 7 | **The Iron Quill.** Armored "Tank Wizard" who treats magic like military artillery. Sentient Spellbook. |
 | **`kramgor/`** | **Kram Gor** | Paladin (Conquest) 6 | **The Silent Winter.** Goliath Paladin of Auril. Theme: Fear, Cold, Silence. |
@@ -82,6 +83,21 @@ if (isMageArmor) {
     ui.notifications.info("Mage Armor ON (13 + Dex)");
 }
 ```
+
+---
+
+## 🍀 Chance McGinty (Monk - Warrior of the Open Hand)
+
+### Overview
+Chance is a Level 3 Halfling Monk in a general setting.
+*   **Philosophy:** A jovial, traveling brawler who runs a "Test Your Luck" contest on the roadside.
+*   **Role:** Mobile Striker / Control.
+*   **Key Mechanic:** "The Luck Engine" — Halfling Luck (reroll 1s) + Lucky Feat + Sap Mastery (Spear).
+
+### Tactical Guidelines
+*   **Crowd Control:** Use *Open Hand Technique* to Topple (Prone) or Addle (No Reactions).
+*   **Survivability:** Combined *Sap* mastery with *Deflect Attack* to be deceptively tanky despite low HP.
+*   **Social:** Proficient in Dice Sets and Brewer's Supplies for social engineering.
 
 ---
 
