@@ -27,8 +27,8 @@
 *   **Hit Points:** 24 (8 + 5 + 5 + 6 CON)
 *   **Armor Class:** 16 (Unarmored Defense: 10 + 3 DEX + 3 WIS)
 *   **Initiative:** +3
-*   **Speed:** 35 ft. (25 base + 10 Unarmored Movement)
-*   **Senses:** Passive Perception 15
+*   **Speed:** 40 ft. (30 base + 10 Unarmored Movement)
+*   **Senses:** Passive Perception 15 (Proficiency missing but Wisdom is high - adjust if Perception skill added later)
 *   **Languages:** Common, Halfling
 
 ### Attacks
@@ -40,7 +40,7 @@
 
 ## Features & Traits
 
-### Halfling Traits
+### Halfling Traits (2024)
 *   **Halfling Luck:** Reroll natural 1s on d20 rolls.
 *   **Brave:** Advantage on saves vs. Frightened.
 *   **Halfling Nimbleness:** Move through spaces of creatures larger than you.
@@ -50,11 +50,12 @@
 *   **Martial Arts:** Use DEX for unarmed strikes/monk weapons. Die is 1d6.
 *   **Unarmored Defense:** AC = 10 + DEX + WIS.
 *   **Monk's Focus:** 3 Focus Points (Ki). Regain on Short/Long Rest.
+*   **Uncanny Metabolism:** (1/Long Rest) Bonus Action to regain all Focus Points + Heal 1d6+3 HP.
 *   **Flurry of Blows:** Bonus Action: Spend 1 Focus to make 2 Unarmed Strikes.
 *   **Patient Defense:** Bonus Action: Disengage (Free) or Dodge (1 Focus).
 *   **Step of the Wind:** Bonus Action: Dash (Free) or Dash+Disengage+Jump (1 Focus).
 *   **Unarmored Movement:** +10 ft speed.
-*   **Deflect Attacks:** Reaction: Reduce damage by 1d10 + DEX (3) + Monk Lvl (3). If damage is 0 and target is within 5ft, spend 1 Focus to make an Unarmed Strike.
+*   **Deflect Attacks:** Reaction: Reduce *any* attack damage by 1d10 + DEX (3) + Monk Lvl (3). If damage is 0 and target is within 5ft, spend 1 Focus to make an Unarmed Strike counter-attack.
 
 ### Warrior of the Open Hand
 *   **Open Hand Technique:** When you hit with Flurry of Blows, apply one:
@@ -67,7 +68,7 @@
 ## Feats & Proficiencies
 
 *   **Lucky (Origin Feat):** 2 Luck Points (PB). Use to give yourself Advantage or enemy Disadvantage.
-*   **Skill Proficiencies:** Acrobatics, Athletics, Insight, Stealth, Perception.
+*   **Skill Proficiencies:** Acrobatics, Athletics, Insight, Stealth.
 *   **Tool Proficiencies:** Thieves' Tools, Dice Set, Pan Flute, Brewer's Supplies.
 *   **Weapon Masteries:** Spear (Sap), Handaxe (Vex - *Note: Handaxe not currently in inventory*).
 
