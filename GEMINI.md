@@ -125,3 +125,9 @@ Kram Gor is a Level 6 Goliath Paladin (Oath of Conquest) in *Icewind Dale: Rime 
 ### Thematic Consistency
 *   **Flavor Text:** Describe abilities using imagery of frost, ice, silence, shattering glaciers, and numbing cold.
 *   **Frostmaiden's Brand:** On inner left forearm, glows when casting.
+
+---
+
+## Gemini Added Memories
+- Ensure all changes are pushed to GitHub after committing; local commits are not sufficient.
+- Before making any changes to the GitHub repository, always search for 'Zone.Identifier' files, remove any found, and then proceed with normal actions.
