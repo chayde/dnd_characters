@@ -1,3 +1,5 @@
+<img src="ChanceMcGinty.png" width="300" alt="Chance McGinty Portrait">
+
 # Chance McGinty
 
 **Race:** Lightfoot Halfling
