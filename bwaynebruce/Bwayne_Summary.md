@@ -2,10 +2,17 @@
 
 ## Character Overview
 **Class:** Paladin (Oath of Vengeance)  
-**Level:** 8 → 9 (transition)  
+**Level:** 10  
+**HP:** 84  
 **Faith:** Hoar, the Doombringer — God of Revenge and Poetic Justice  
 **Alignment:** Lawful Neutral  
 **Role:** Frontline avenger and divine executioner of retribution  
+
+---
+
+## 🛡️ Auras (10-foot radius)
+- **Aura of Protection:** You and allies within range gain a bonus to all saving throws equal to your Charisma modifier.
+- **Aura of Courage:** You and allies within range cannot be frightened while you are conscious.
 
 ---
 
