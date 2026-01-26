@@ -158,12 +158,16 @@ You can swap prepared spells after a long rest.
 **Powerful Build:**
 You have Advantage on ability checks to end the Grappled condition. You count as one size larger for carrying/pushing/dragging/lifting capacity.
 
-**Stone's Endurance (Recharges on Short/Long Rest)**
-*Reaction:* When you take damage, reduce it by 1d12 + CON modifier (1d12+2).
-**Flavor:** Frost surges through your veins, numbing the pain.
+**Large Form (Level 5 Feature, 1/Long Rest)**
+*Bonus Action:* You magically transform into a Large size for 10 minutes.
+*   Your speed increases by 10 feet.
+*   You have Advantage on Strength checks.
+*   You occupy a 10x10 ft. space.
+**Flavor:** Your body expands with the cracking sound of shifting ice, towering over your foes like a true giant.
 
-**Giant Ancestry: Frost's Chill (2 uses per Long Rest)**
+**Giant Ancestry: Frost's Chill (3 uses per Long Rest)**
 *When you hit with an attack:* You can deal an additional 1d6 cold damage and reduce the target's speed by 10 ft. until the start of your next turn.
+*   **Uses:** Equal to Proficiency Bonus (+3).
 **Flavor:** Your strike carries the bite of the Ironspine's eternal winter. Ice crystallizes across the wound.
 
 ---
@@ -295,7 +299,7 @@ Immediately after you score a critical hit with a melee weapon or reduce a creat
    - Use your **Free Divine Smite** (1/day) on a crit or big hit
 
 4. **Reaction (if triggered)**
-   - Stone's Endurance (reduce damage by 1d12+2)
+   - Opportunity Attack (enemy leaves reach)
 
 ---
 
@@ -306,7 +310,7 @@ Immediately after you score a critical hit with a melee weapon or reduce a creat
 **Damage:** 1d12 + 7 slashing (STR +4, Magic +1, Heavy Weapon Mastery +2)
 **Average Damage:** 14
 
-#### With Frost's Chill (2/Long Rest)
+#### With Frost's Chill (3/Long Rest)
 **To Hit:** +8
 **Damage:** 1d12 + 7 slashing + 1d6 cold (target's speed reduced by 10 ft.)
 **Average Damage:** 17
@@ -349,7 +353,6 @@ If you miss with a greatsword attack, you still deal **4 damage** (your STR modi
 
 - **Frightened enemies** take psychic damage at level 7 (Aura of Conquest) - not available yet at level 4.
 - Use **Guided Strike** (+10 to hit) when you want to guarantee a big smite lands.
-- Use **Stone's Endurance** (1d12+2 damage reduction) when you take a big hit.
 - Track your spell slots carefully—you only have **3 per long rest**.
 
 ---
@@ -361,7 +364,6 @@ If you miss with a greatsword attack, you still deal **4 damage** (your STR modi
 **Temporary HP:** *Armor of Agathys* (5 temp HP, enemies take 5 cold when they hit you)
 
 **Damage Reduction:**
-- Stone's Endurance: 1d12+2 (once per short rest)
 - Resistance to cold damage (armor)
 
 ---
@@ -513,13 +515,13 @@ They do not know he died. They do not know he was once a barbarian. They know on
 
 ### Current Situation
 
-**Location:** Easthaven, Icewind Dale
-**Current Quest:** Guard duty at town hall overnight (minor local work)
+**Location:** Traveling South from Easthaven
+**Current Quest:** Traveling to the mansion granted by the Throne card (Redwaters/Good Mead area).
+**Recent Event:** Encountered a **Lich Emissary of Auril**. The creature delivered a chilling monologue praising Kram and Inara for their "silence and restraint" while threatening the rest of the party as "unbelievers." It confirmed that Auril is watching Kram's steps closely.
 **Larger Goals:**
-- Find the **mansion** Kram was granted by the Throne card (Deck of Many Things). It lies somewhere between **Dougan's Hole and Good Mead near Redwaters**, occupied by something dangerous.
-- Investigate rumors in Dougan's Hole and Good Mead.
-- Understand what Auril wants from him.
-- Protect Inara.
+- Reach and clear the mansion near Redwaters.
+- Understand the "Stillness" the Lich spoke of.
+- Protect the "unbelievers" in the party from the winter that has "measured their steps."
 
 ---
 
@@ -578,23 +580,16 @@ But he is loyal. She gave him life. He will serve.
 
 ### Philosophy & Internal Conflict
 
-Kram stands at a crossroads between two selves:
+Kram stands at a crossroads between three selves:
 
 - **The Farmer:** Who loved, who lost, who built with his hands.
-- **The Barbarian:** Who raged, who heard the World Tree, who fought with fire in his veins.
-- **The Paladin:** Who is cold, who is disciplined, who is becoming something new.
+- **The Paladin:** Who is cold, disciplined, and currently serving as Auril's "sharpened restraint."
+- **The Instrument:** A vessel for the Frostmaiden's will, whose "patience feeds the winter."
 
-He does not know which of these he is anymore. Perhaps he is all three. Perhaps he is none.
+**The Chilling Truth:**
+The Lich's words have forced a realization: Kram is no longer just a survivor; he is an example of what Auril wants. He is "pleasing" to her. This brings a new weight to his silence. Is he protecting his friends, or is his very presence a countdown to their "failure" in the eyes of his Goddess?
 
-What he knows is this:
-- The cold is comforting.
-- Inara is worth protecting.
-- Auril has a purpose for him, and he will discover it.
-
-And beneath it all, buried deep in the frost:
-A question he does not yet dare ask.
-
-*Is this rebirth... or erasure?*
+*Is this rebirth... or a slow, thorough erasure?*
 
 ---
 
@@ -623,6 +618,10 @@ A question he does not yet dare ask.
 
 ## SECTION 8: Inspirational Quotes & Philosophy
 
+> *"The stillness is coming—and it knows your names."* — The Emissary of Auril
+
+> *"Your patience has fed the winter. Your restraint has sharpened it. You will be remembered when the snow settles."* — The Emissary of Auril
+
 > *"Mercy is the warmth that melts resolve. I am winter's judgment—unyielding, unending, inevitable."*
 
 > *"The cold does not lie. It reveals what endures."*
@@ -640,7 +639,7 @@ A question he does not yet dare ask.
 - **Protect Inara, but don't smother her.** She's capable, and your bond is built on mutual respect.
 - **Ask Auril questions.** When the moment feels right, reach out to her in prayer or meditation. Let the DM guide that conversation.
 - **Use your fear abilities.** Conquering Presence is powerful (2 uses per long rest). Don't forget it in combat.
-- **Track your limited resources:** Free Divine Smite (1/long rest), Frost's Chill (2/long rest), Channel Divinity (2/long rest, 1 back on short rest), Stone's Endurance (1/short rest).
+- **Track your limited resources:** Free Divine Smite (1/long rest), Frost's Chill (3/long rest), Channel Divinity (2/long rest, 1 back on short rest).
 - **Weapon Mastery is powerful.** Cleave lets you hit two enemies. Remember to use it when multiple foes are close together.
 - **You are not a healer.** You have Lay on Hands, but your role is frontline control and damage. Use healing as a last resort.
 - **Heavy Weapon Mastery is always on.** You're dealing +2 damage every single hit—it adds up fast.

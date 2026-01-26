@@ -53,7 +53,7 @@
 - WIS save or **2d8 necrotic damage** (**2d12 if target is missing HP**, scaled at level 5)
 - **Primary damage cantrip:** Execute damaged enemies, necromancy theme, reliable damage
 
-## 1st-Level Spells in Spellbook (8 total)
+## 1st-Level Spells in Spellbook (9 total)
 
 **Complete List:**
 1. Detect Magic (Ritual)
@@ -64,8 +64,15 @@
 6. Shield
 7. Sleep
 8. Unseen Servant (Ritual)
+9. False Life - *from Shadow Touched feat*
 
 ---
+
+### ✓ False Life (Necromancy) - *from Shadow Touched*
+**Casting Time:** 1 action | **Range:** Self | **Duration:** 1 hour
+- Gain **1d4 + 4 temporary hit points**
+- Can cast once per long rest for free, or use spell slots
+- **Silas's Flavor:** Uses minor necromantic energy to bolster his fragile gnome frame.
 
 ### ✓ Detect Magic (Ritual)
 **Casting Time:** 1 action (or 11 min as ritual) | **Range:** Self | **Duration:** Concentration, up to 10 minutes
@@ -114,22 +121,29 @@
 - Create invisible, mindless force that performs simple tasks
 - **Utility:** Carrying items, opening doors, general servant tasks
 
-## 2nd-Level Spells in Spellbook (3 total)
+## 2nd-Level Spells in Spellbook (4 total)
 
 **Complete List:**
 1. Darkbolt (Book of Ebon Tides - evocation)
 2. Mirror Image
 3. Misty Step
+4. Invisibility - *from Shadow Touched feat*
 
 ---
 
+### ✓ Invisibility (Illusion) - *from Shadow Touched*
+**Casting Time:** 1 action | **Range:** Touch | **Duration:** Concentration, up to 1 hour
+- Target becomes invisible until it attacks or casts a spell
+- Can cast once per long rest for free, or use spell slots
+- **Utility:** Stealth, escaping dangerous situations
+
 ### ✓ Darkbolt (Evocation) - *Book of Ebon Tides*
 **Casting Time:** 1 action | **Range:** 60 ft | **Duration:** Instantaneous
-**Components:** V, S | **Attack/Save:** CON (uses your spell save DC 15)
+**Components:** V, S | **Attack/Save:** CON (uses your spell save DC 16)
 - Create black nimbus around hand, hurl 3 rays of darkness at one or more targets
 - Make ranged spell attack for each target (not each ray)
 - Each ray that hits deals 1d10 cold damage
-- Target hit by one or more rays must make CON save (DC 15) or be unable to use reactions until start of its next turn
+- Target hit by one or more rays must make CON save (DC 16) or be unable to use reactions until start of its next turn
 - **At Higher Levels:** Create one additional ray for each slot level above 2nd
 - **Tactical use:** Similar to Scorching Ray but with cold damage and reaction denial, excellent against spellcasters
 
@@ -148,14 +162,7 @@
 
 ---
 
-## Potential 2nd-Level Spells to Add Later
-
-- **Web:** Restrain creatures in 20 ft cube, excellent control
-- **Hold Person:** Paralyze humanoid, auto-crits from melee
-- **Invisibility:** Stealth and protection
-- **Scorching Ray:** 3× ranged attacks for fire damage
-
-## 3rd-Level Spells in Spellbook (6 total)
+## 3rd-Level Spells in Spellbook (7 total)
 
 
 
@@ -172,10 +179,31 @@
 5. Speak with Dead
 
 6. Vampiric Touch
+7. Summon Undead (Necromancy)
 
 
 
 ---
+
+
+
+### ✓ Summon Undead (Necromancy) - *Learned at Level 8*
+
+**Casting Time:** 1 action | **Range:** 90 ft | **Duration:** Concentration, up to 1 hour
+
+**Components:** V, S, M (a gilded skull worth at least 300 gp)
+
+- Summon an undead spirit (Ghostly, Putrid, or Skeletal)
+
+- Spirit uses your Spell Attack bonus (+8) and has HP based on level (40 at 4th level)
+
+- **Skeletal:** Ranged attack, 2d6+3+4 necrotic damage
+
+- **Ghostly:** Can move through creatures/objects, Frightens on hit
+
+- **Putrid:** Stench poisons nearby enemies, Paralyzes poisoned targets on hit
+
+- **Why Silas chose it:** Fits his theme perfectly as a "benevolent" summoner.
 
 
 
@@ -191,13 +219,13 @@
 
 - Undead remain under your control for 24 hours, after which they stop obeying commands
 
-- Can reassert control by casting spell again before 24 hours expire (up to 4 undead at level 6/7)
+- Can reassert control by casting spell again before 24 hours expire (up to 5 undead at level 8)
 
-- **With Undead Thralls (Level 6):** Animated undead gain +wizard level HP and +proficiency damage
+- **With Undead Thralls (Level 8):** Animated undead gain +wizard level HP and +proficiency damage
 
-- **Skeleton (Enhanced):** AC 13, HP 19 (13+6), Speed 30 ft, Shortsword (+5, 1d6+5), Shortbow (+5, 1d6+5, range 80/320)
+- **Skeleton (Enhanced):** AC 13, HP 21 (13+8), Speed 30 ft, Shortsword (+6, 1d6+6), Shortbow (+6, 1d6+6, range 80/320)
 
-- **Zombie (Enhanced):** AC 8, HP 28 (22+6), Speed 20 ft, Slam (+4, 1d6+4), Undead Fortitude (can avoid death on CON save)
+- **Zombie (Enhanced):** AC 8, HP 30 (22+8), Speed 20 ft, Slam (+4, 1d6+4), Undead Fortitude (can avoid death on CON save)
 
 - **Silas's Philosophy:** Views raising the dead as extending time and life itself, preserving their usefulness beyond natural death
 
@@ -213,7 +241,7 @@
 
 - Interrupt a creature casting a spell
 
-- **2024 Update:** Target makes a **Constitution saving throw** against your Spell Save DC (15)
+- **2024 Update:** Target makes a **Constitution saving throw** against your Spell Save DC (16)
 
 - On failed save, the spell fails and the spell slot is wasted
 
@@ -231,7 +259,7 @@
 
 - Create explosion at a point within range
 
-- Each creature in a 20-foot-radius sphere makes DEX save (DC 15)
+- Each creature in a 20-foot-radius sphere makes DEX save (DC 16)
 
 - **8d6 fire damage** on failed save, half damage on success
 
@@ -247,13 +275,13 @@
 
 - Create twisting pattern of colors in a 30-foot cube
 
-- Each creature in area makes WIS save (DC 15) or becomes Charmed (Incapacitated, Speed 0)
+- Each creature in area makes WIS save (DC 16) or becomes Charmed (Incapacitated, Speed 0)
 
 - Effect ends if target takes damage or another creature uses action to shake them
 
 
 
-### ✓ Speak with Dead (Necromancy) - *Learned at Level 7*
+### ✓ Speak with Dead (Necromancy)
 
 **Casting Time:** 1 action | **Range:** 10 ft | **Duration:** 10 minutes
 
@@ -268,6 +296,12 @@
 - **Thematic:** Perfect for an undertaker investigating the history of Barovia
 
 
+
+### ✓ Remove Curse (Abjuration) - *Learned at Level 8*
+**Casting Time:** 1 action | **Range:** Touch | **Duration:** Instantaneous
+- At your touch, all curses affecting one creature or object end.
+- If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.
+- **Why Silas chose it:** Essential for survival and helping others in the dark lands of Barovia.
 
 ### ✓ Vampiric Touch (Necromancy)
 
@@ -291,13 +325,9 @@
 
 1. Polymorph
 
-
-
 ---
 
-
-
-### ✓ Polymorph (Transmutation) - *Learned at Level 7*
+### ✓ Polymorph (Transmutation)
 
 **Casting Time:** 1 action | **Range:** 60 ft | **Duration:** Concentration, up to 1 hour
 
@@ -307,7 +337,7 @@
 
 - **Willing ally:** Turn them into a Giant Ape (HP 157) or other high-CR beast for defense/offense
 
-- **Unwilling enemy:** Target makes WIS save (DC 15). Fail: Turn into a harmless creature (like a frog) to remove them from combat
+- **Unwilling enemy:** Target makes WIS save (DC 16). Fail: Turn into a harmless creature (like a frog) to remove them from combat
 
 - Target assumes the HP of the new form. When it drops to 0, it reverts to original HP (excess damage carries over)
 
@@ -317,11 +347,11 @@
 
 
 
-## Silas's Prepared Spells (Level 7)
+## Silas's Prepared Spells (Level 8)
 
 
 
-**Total Prepared:** 11 of 11 possible (INT modifier 4 + Wizard level 7 = 11 max)
+**Total Prepared:** 13 of 13 possible (INT modifier 5 + Wizard level 8 = 13 max)
 
 
 
@@ -331,29 +361,21 @@
 
 ### Combat-Focused Preparation (With Undead Minions)
 
-**Prepared Spells (11):**
+**Prepared Spells (13):**
 
 1. **Mage Armor** (1st)
-
 2. **Shield** (1st)
-
-3. **Magic Missile** (1st)
-
-4. **Darkbolt** (2nd)
-
-5. **Mirror Image** (2nd)
-
-6. **Misty Step** (2nd)
-
-7. **Animate Dead** (3rd)
-
-8. **Counterspell** (3rd)
-
-9. **Fireball** (3rd)
-
-10. **Vampiric Touch** (3rd)
-
-11. **Polymorph** (4th)
+3. **False Life** (1st - from feat)
+4. **Magic Missile** (1st)
+5. **Darkbolt** (2nd)
+6. **Mirror Image** (2nd)
+7. **Misty Step** (2nd)
+8. **Animate Dead** (3rd)
+9. **Counterspell** (3rd)
+10. **Fireball** (3rd)
+11. **Vampiric Touch** (3rd)
+12. **Summon Undead** (3rd)
+13. **Remove Curse** (3rd)
 
 
 
@@ -363,41 +385,30 @@
 
 ### Non-Combat/Exploration Preparation
 
-**Prepared Spells (11):**
+**Prepared Spells (13):**
 
 1. **Mage Armor** (1st)
-
 2. **Shield** (1st)
-
 3. **Magic Missile** (1st)
-
 4. **Misty Step** (2nd)
-
-5. **Counterspell** (3rd)
-
-6. **Hypnotic Pattern** (3rd)
-
-7. **Speak with Dead** (3rd)
-
-8. **Polymorph** (4th)
-
-9. **Detect Magic** (1st ritual)
-
-10. **Identify** (1st ritual)
-
-11. **Unseen Servant** (1st ritual)
+5. **Invisibility** (2nd - from feat)
+6. **Counterspell** (3rd)
+7. **Hypnotic Pattern** (3rd)
+8. **Speak with Dead** (3rd)
+9. **Remove Curse** (3rd)
+10. **Polymorph** (4th)
+11. **Summon Undead** (3rd)
+12. **Detect Magic** (1st ritual)
+13. **Identify** (1st ritual)
 
 
 
 ### Spell Slot Tracking
 
 **1st Level:** ○ ○ ○ ○ (4 slots)
-
 **2nd Level:** ○ ○ ○ (3 slots)
-
 **3rd Level:** ○ ○ ○ (3 slots)
-
-**4th Level:** ○ (1 slot)
+**4th Level:** ○ ○ (2 slots)
 
 
 
@@ -423,31 +434,13 @@ Silas can cast these as rituals without preparing them (+10 min casting time, no
 
 ---
 
-## Future Spell Considerations (Level 5+)
-
-### 3rd-Level Priority Spells (CURRENT LEVEL - Add Next)
-**Already Have:** Animate Dead ✓, Counterspell ✓
-
-**Next Priority:**
-- **Vampiric Touch:** Melee spell attack, 3d6 necrotic, heal half damage dealt, triggers Grim Harvest for 9 HP
-- **Speak with Dead:** Question corpses - PERFECT for Silas and Curse of Strahd mysteries
-- **Fireball:** Standard AoE damage (8d6 in 20 ft radius) - fill AOE gap
-- **Hypnotic Pattern:** Top-tier crowd control, incapacitate multiple enemies
-
-**Other Useful:**
-- **Dispel Magic:** Remove magical effects and curses (useful in Barovia)
-- **Fly:** 10 min flight, concentration
-- **Sending:** Communicate across any distance
-
-### 4th-Level Priority Spells (Level 7+)
-- **Polymorph:** Transform creature, extremely versatile
-- **Banishment:** Remove enemy from combat
-- **Greater Invisibility:** Invisibility that doesn't break on attacking
+## Future Spell Considerations (Level 9+)
 
 ### 5th-Level Priority Spells (Level 9+)
 - **Wall of Force:** Impenetrable barrier
 - **Cone of Cold:** 8d8 cold damage AoE
 - **Animate Objects:** Create multiple tiny attackers
+- **Danse Macabre:** The ultimate necromancer spell (Tasha's/XGE)
 
 ---
 

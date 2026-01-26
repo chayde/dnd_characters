@@ -4,7 +4,7 @@
 
 **Name:** Silas Graves
 **Class:** Wizard (School of Necromancy)
-**Level:** 7
+**Level:** 8
 **Background:** Sage
 **Race:** Rock Gnome (2024 rules)
 **Alignment:** Neutral Good
@@ -13,7 +13,9 @@
 **Spellcasting Ability:** Intelligence
 **Familiar:** Ink (Raven) - from Magic Initiate feat
 **Spellbook:** *The Final Ledger*
-**Feat:** Magic Initiate (Wizard) - grants 2 cantrips + Find Familiar
+**Feats:** 
+- Magic Initiate (Wizard) - grants 2 cantrips + Find Familiar
+- Shadow Touched (Level 8) - +1 INT, Invisibility, False Life
 
 ## Ability Scores
 
@@ -22,29 +24,29 @@
 | STR     | 8    | -      | 8     | -1       | -1           |
 | DEX     | 14   | -      | 14    | +2       | +2           |
 | CON     | 14   | -      | 14    | +2       | +2           |
-| INT     | 17   | +2     | 19    | +4       | **+7** (Prof)|
+| INT     | 17   | +2 +1  | 20    | +5       | **+8** (Prof)|
 | WIS     | 12   | -      | 12    | +1       | **+4** (Prof)|
 | CHA     | 10   | -      | 10    | +0       | +0           |
 
-**Note:** INT boosted from 17 to 19 at Level 4 using ASI
+**Note:** INT boosted from 17 to 19 at Level 4 (ASI), then to 20 at Level 8 (Shadow Touched).
 
 ## Combat Statistics
 
 **Armor Class:** 15 (Mage Armor + DEX)
 **Initiative:** +2
 **Speed:** 25 ft (Gnome)
-**Hit Points:** 51
-**Hit Dice:** 7d6
-**Proficiency Bonus:** +3 (Level 7)
+**Hit Points:** 57
+**Hit Dice:** 8d6
+**Proficiency Bonus:** +3 (Level 8)
 
 ## Proficiencies
 
 **Saving Throws:** Intelligence, Wisdom (Wizard)
 
 **Skills:**
-- Arcana (INT) +7 (proficient)
-- History (INT) +7 (proficient)
-- Investigation (INT) +7 (proficient)
+- Arcana (INT) +8 (proficient)
+- History (INT) +8 (proficient)
+- Investigation (INT) +8 (proficient)
 - Medicine (WIS) +4 (proficient)
 
 **Languages:** Common, Gnomish, Draconic, Infernal
@@ -71,9 +73,9 @@
 
 **Grim Harvest (1/rest):** When you kill one or more creatures with a spell of 1st level or higher, regain HP equal to twice the spell's level (or three times for necromancy spells). Once per turn.
 
-**Undead Thralls (Level 6):** Animate Dead is added to your spellbook if not already there. Undead created with Animate Dead gain bonus HP equal to your wizard level (+7 HP at level 7) and add your proficiency bonus to damage rolls (+3 damage). When casting Animate Dead, you can target one additional corpse or pile of bones.
+**Undead Thralls (Level 6):** Animate Dead is added to your spellbook if not already there. Undead created with Animate Dead gain bonus HP equal to your wizard level (+8 HP at level 8) and add your proficiency bonus to damage rolls (+3 damage). When casting Animate Dead, you can target one additional corpse or pile of bones.
 
-**Spellcasting:** Can prepare INT modifier + wizard level spells (4 + 7 = 11 spells). Uses two daily preparation lists (combat-focused or exploration-focused).
+**Spellcasting:** Can prepare INT modifier + wizard level spells (5 + 8 = 13 spells). Uses two daily preparation lists (combat-focused or exploration-focused).
 
 **Ritual Casting:** Can cast wizard spells as rituals if they have the ritual tag and are in spellbook.
 
@@ -83,6 +85,11 @@
 ### Feat: Magic Initiate (Wizard)
 - **Cantrips:** Chill Touch, Toll the Dead
 - **1st-Level Spell:** Find Familiar (can cast once per long rest without spell slot, or use spell slot to cast it)
+
+### Feat: Shadow Touched (Level 8)
+- **Ability Score:** +1 Intelligence
+- **Invisibility:** Learn the *Invisibility* spell. You can cast it once without a spell slot, and regain the ability to do so after a long rest. You can also cast it using spell slots of the appropriate level.
+- **False Life:** Learn the *False Life* spell. You can cast it once without a spell slot, and regain the ability to do so after a long rest. You can also cast it using spell slots of the appropriate level.
 
 ## Equipment
 
@@ -106,9 +113,9 @@
 
 ## Spellcasting
 
-**Spellcasting Ability:** Intelligence (+4 modifier)
-**Spell Save DC:** 15 (8 + 3 proficiency + 4 INT)
-**Spell Attack Bonus:** +7 (+3 proficiency + 4 INT)
+**Spellcasting Ability:** Intelligence (+5 modifier)
+**Spell Save DC:** 16 (8 + 3 proficiency + 5 INT)
+**Spell Attack Bonus:** +8 (+3 proficiency + 5 INT)
 
 **Cantrips Known:** 8 total
 - 2 from Rock Gnome (Mending, Prestidigitation)
@@ -119,17 +126,17 @@
 - 1st level: 4 slots
 - 2nd level: 3 slots
 - 3rd level: 3 slots
-- 4th level: 1 slot
+- 4th level: 2 slots
 
 **Spells in Spellbook:**
-- 1st level: 8 spells (4 are rituals)
-- 2nd level: 3 spells
-- 3rd level: 6 spells (Animate Dead, Counterspell, Fireball, Vampiric Touch, Hypnotic Pattern, Speak with Dead)
+- 1st level: 9 spells (4 are rituals, +False Life from feat)
+- 2nd level: 4 spells (+Invisibility from feat)
+- 3rd level: 8 spells (+Summon Undead, +Remove Curse)
 - 4th level: 1 spell (Polymorph)
 
-**Spells Prepared:** 11 of 11 max (INT mod 4 + Wizard level 7)
-- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Vampiric Touch, Polymorph
-- **Exploration-Focused:** Mage Armor, Shield, Magic Missile, Misty Step, Counterspell, Hypnotic Pattern, Speak with Dead, Polymorph, Detect Magic (ritual), Identify (ritual), Unseen Servant (ritual)
+**Spells Prepared:** 13 of 13 max (INT mod 5 + Wizard level 8)
+- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Vampiric Touch, Polymorph, Summon Undead, Remove Curse
+- **Exploration-Focused:** Mage Armor, Shield, Magic Missile, Misty Step, Invisibility, Counterspell, Hypnotic Pattern, Speak with Dead, Polymorph, Summon Undead, Remove Curse, Detect Magic (ritual), Identify (ritual)
 
 See `spells.md` for complete spell list, preparation strategy, and daily list details.
 
@@ -151,23 +158,23 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 
 **Rose Durst** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 20 (base 13 + 7 from Undead Thralls)
+- **HP:** 21 (base 13 + 8 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +5 (1d6+5 slashing), Shortbow +5 (1d6+5 piercing, range 80/320)
+- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
 - **Background:** Daughter of the Durst family, recovered from the Death House
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Thorn Durst** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 20 (base 13 + 7 from Undead Thralls)
+- **HP:** 21 (base 13 + 8 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +5 (1d6+5 slashing), Shortbow +5 (1d6+5 piercing, range 80/320)
+- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
 - **Background:** Son of the Durst family, recovered from the Death House
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Mook** (Zombie - Undead Thralls Enhanced)
 - **AC:** 8
-- **HP:** 29 (base 22 + 7 from Undead Thralls)
+- **HP:** 30 (base 22 + 8 from Undead Thralls)
 - **Speed:** 20 ft.
 - **Attacks:** Slam +4 (1d6+4 bludgeoning)
 - **Special:** Undead Fortitude - If damage reduces zombie to 0 HP, it makes CON save (DC 5 + damage taken). On success, drops to 1 HP instead.
@@ -176,6 +183,6 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 
 **Silas's Treatment:** Views all three undead as extended versions of their former selves, giving them continued purpose beyond death. Rose and Thorn represent tragic children given new meaning, while Mook represents a restless spirit finally given peaceful service. Treats them respectfully as companions rather than mere tools.
 
-**Current Undead Count:** 3 of 4 maximum
-**Undead Thralls Bonus:** All animated undead gain +7 HP and +3 damage from Undead Thralls feature at level 7
+**Current Undead Count:** 3 of 5 maximum
+**Undead Thralls Bonus:** All animated undead gain +8 HP and +3 damage from Undead Thralls feature at level 8
 

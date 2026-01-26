@@ -26,6 +26,7 @@
 | **Cast Divine Favor** | Long fight - adds 1d4 radiant to ALL attacks for 1 min |
 | **Cast Spiritual Weapon** | Need extra damage - bonus action attack each turn (no concentration!) |
 | **Hew Attack** (GWM) | Just scored a crit or killed an enemy |
+| **Large Form** (1/Day) | Become Large (10 mins), +10 speed, Adv. on STR checks |
 | **Lay on Hands** | Ally needs emergency healing |
 
 ### 3️⃣ ACTION (Choose One)
@@ -51,7 +52,7 @@
 |:-------|:--------:|:-------|:------------|
 | **Divine Smite (Free)** | 1 | +2d8 radiant (3d8 vs undead/fiends) | First good hit of the day |
 | **Divine Smite (Spell Slot)** | 6 slots | +2d8/3d8/4d8 depending on slot level | Critical hits or killing blows |
-| **Frost's Chill** | 2 | +1d6 cold, reduce speed by 10 ft. | Fast enemies or when you need extra damage |
+| **Frost's Chill** | 3 | +1d6 cold, reduce speed by 10 ft. | Fast enemies or when you need extra damage |
 
 ### 5️⃣ MOVEMENT
 - **Stay within 10 ft. of allies** (Aura of Protection gives them +2 to saves)
@@ -63,7 +64,6 @@
 ## DEFENSIVE OPTIONS
 
 ### 🛡️ REACTIONS (You get ONE per round)
-- **Stone's Endurance (1/short rest):** When hit, reduce damage by 1d12+2
 - **Opportunity Attack:** Enemy leaves your reach without Disengaging
 
 ### 🛡️ DEFENSIVE SPELLS (Cast Before Combat)
@@ -157,8 +157,8 @@
 ### LIMITED ABILITIES
 - **Channel Divinity:** ⬜ ⬜ (2/long rest, regain 1 on short rest)
 - **Free Divine Smite:** ⬜ (1/long rest)
-- **Frost's Chill:** ⬜ ⬜ (2/long rest)
-- **Stone's Endurance:** ⬜ (1/short rest)
+- **Frost's Chill:** ⬜ ⬜ ⬜ (3/long rest)
+- **Large Form:** ⬜ (1/long rest)
 
 ### HEALING POOL
 - **Lay on Hands:** 30 HP pool (spend 5 HP to cure disease/poison)
@@ -172,7 +172,7 @@
 - **Average per hit:** 14 damage
 - **Average per turn:** 28 damage
 
-### WITH FROST'S CHILL (2/day)
+### WITH FROST'S CHILL (3/day)
 **One attack:** 1d12+7 + 1d6 cold + reduce speed
 - **Average:** 17 damage per hit
 
@@ -204,7 +204,7 @@
 ### ⚠️ DON'T FORGET
 - **Concentration:** Only one concentration spell at a time (Bless, Wrathful Smite, Divine Favor, etc.)
 - **Aura of Protection:** Allies within 10 ft. get +2 to ALL saves
-- **Frost's Chill is limited:** Only 2 uses per long rest - save for important moments
+- **Frost's Chill is limited:** Only 3 uses per long rest - save for important moments
 - **Channel Divinity recharges on short rest:** You get 1 use back
 - **Conquering Presence needs line of sight:** Won't work on enemies who can't see/hear you
 
@@ -228,7 +228,6 @@
 ### "I'm Surrounded!"
 1. **Conquering Presence** (Channel Divinity) - frighten everyone
 2. Use **Cleave** to hit two enemies per turn
-3. **Stone's Endurance** if you take a big hit
 
 ### "My Ally is Dying"
 1. **Lay on Hands** (bonus action) to stabilize or heal

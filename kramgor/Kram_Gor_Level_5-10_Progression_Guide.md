@@ -47,6 +47,11 @@
 - Damage output essentially doubles
 - Two chances to crit, proc Frost's Chill, etc.
 
+✅ **Large Form (Level 5 Feature)**
+- Bonus Action to become Large for 10 minutes (1/Long Rest)
+- +10 ft. speed, Advantage on STR checks
+- Occupy 10x10 space (control more battlefield area)
+
 ✅ **2nd-Level Spells & Oath Spells**
 - **Hold Person** (Oath) - Paralyze humanoids, auto-crit combo
 - **Spiritual Weapon** (Oath) - Bonus action attack, no concentration
@@ -409,7 +414,7 @@ OR:
 ❌ No stat increases
 ❌ Doesn't improve your auras, DC, or damage
 ❌ Requires enemies to be in melee range
-❌ Uses your reaction (can't use Stone's Endurance same turn)
+❌ Uses your reaction (can't use Opportunity Attack same turn)
 
 **Verdict:**
 **Excellent thematic fit for Conquest.** Creates a "no escape" zone around you. Great if you want to be the ultimate tank/controller. **Second-best choice after +CHA.**
@@ -858,19 +863,18 @@ This path embraces Kram's identity as Auril's instrument of conquest - cold, con
 - **Spell Slots:** 6-7 total (4× 1st, 2-3× 2nd)
 - **Divine Smite (Free):** 1
 - **Channel Divinity:** 2 (regain 1 on short rest)
-- **Frost's Chill:** 2
+- **Frost's Chill:** 3
 - **Lay on Hands:** 25-40 HP pool
 
 **Level 9-10:**
 - **Spell Slots:** 9 total (4× 1st, 3× 2nd, 2× 3rd)
 - **Divine Smite (Free):** 1
 - **Channel Divinity:** 2 (regain 1 on short rest)
-- **Frost's Chill:** 2
+- **Frost's Chill:** 3
 - **Lay on Hands:** 45-50 HP pool
 
 #### Short Rest Resources
 - **Channel Divinity:** Regain 1 use
-- **Stone's Endurance:** Regain use (1d12+2 damage reduction)
 - **Hit Dice:** 5-10 available (1d10+2 each)
 
 ---
@@ -943,7 +947,6 @@ This path embraces Kram's identity as Auril's instrument of conquest - cold, con
 **Short rest after:**
 - You've used both Channel Divinity
 - Party is below 75% HP and you're low on spell slots
-- Before a known tough fight
 
 **Don't short rest when:**
 - You still have both Channel Divinity

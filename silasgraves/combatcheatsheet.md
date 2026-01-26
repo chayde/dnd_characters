@@ -1,4 +1,4 @@
-# Combat Dashboard ⚔️ - Level 7 Necromancer
+# Combat Dashboard ⚔️ - Level 8 Necromancer
 
 ## Quick Stats
 | Category | Notes |
@@ -6,9 +6,9 @@
 | **Armor Class** | 15 (Mage Armor) / 20 (with Shield reaction) |
 | **Initiative** | +2 |
 | **Speed** | 25 ft. |
-| **HP** | 51 |
-| **Spell Save DC** | 15 (8 + 3 prof + 4 INT) |
-| **Spell Attack Bonus** | +7 (+3 prof + 4 INT) |
+| **HP** | 57 |
+| **Spell Save DC** | 16 (8 + 3 prof + 5 INT) |
+| **Spell Attack Bonus** | +8 (+3 prof + 5 INT) |
 | **Grim Harvest** | Heal 2× spell level on kill (3× for Necromancy spells) |
 
 ## Offensive Power
@@ -16,25 +16,29 @@
 |--------------|---------------|-------|
 | **Toll the Dead** | 2d12 (injured) / 2d8 | Wis Save. Best cantrip damage. |
 | **Chill Touch** | 2d10 Necrotic | Melee (Touch). Stops healing. |
-| **Darkbolt** (2nd) | 3d10 Cold | Ranged Attack. DC 15 Con or lose Reaction. |
+| **Darkbolt** (2nd) | 3d10 Cold | Ranged Attack. DC 16 Con or lose Reaction. |
 | **Fireball** (3rd) | 8d6 Fire | Dex Save. 20ft radius. |
 | **Vampiric Touch** (3rd) | 3d6 Necrotic | Melee. Heal half damage. |
+| **Summon Undead** (3rd) | Varies | Ghost/Skeleton/Putrid. Concentration. |
 | **Polymorph** (4th) | Transform | Giant Ape (Ally) or Turtle/Frog (Enemy). |
+| **Remove Curse** (3rd) | Utility | End all curses on touch. |
 
-## Undead Companions (Undead Thralls: +7 HP, +3 Dmg)
+## Undead Companions (Undead Thralls: +8 HP, +3 Dmg)
 | Name | Type | AC | HP | Attack | Damage | Note |
 |------|------|----|----|--------|--------|------|
-| **Rose** | Skeleton | 13 | 20 | +5 | 1d6+5 | Shortbow (Range 80/320) |
-| **Thorn** | Skeleton | 13 | 20 | +5 | 1d6+5 | Shortbow (Range 80/320) |
-| **Mook** | Zombie | 8 | 29 | +4 | 1d6+4 | Melee Tank (Undead Fortitude) |
+| **Rose** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
+| **Thorn** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
+| **Mook** | Zombie | 8 | 30 | +4 | 1d6+4 | Melee Tank (Undead Fortitude) |
 
 ---
 
-## Current Tactics: Spiders & Driders
-*   **Spider Swarms:** Use **Fireball** (3rd level) to delete clusters.
-*   **Driders:** High AC/Health. Use **Polymorph** (4th level) to turn them into a Turtle (remove from fight) or turn a dying ally into a Giant Ape.
-*   **Webbing:** If Restrained, use **Misty Step** to escape instantly (teleport breaks grapple/restrain).
-*   **Undead:** Send Mook to tank Driders; Rose & Thorn shoot spiders.
+## Defensive & Stealth Utility
+*   **False Life:** Gain 1d4+4 Temporary HP (Cast once/day free via feat).
+*   **Invisibility:** Become invisible (Cast once/day free via feat).
+*   **Mage Armor:** Base defense (AC 15).
+*   **Shield:** Reaction to boost AC to 20.
+*   **Mirror Image:** No-concentration defensive duplicates.
+*   **Remove Curse:** End debilitating curses.
 
 ---
 
@@ -42,6 +46,7 @@
 
 ### Round 1: Setup & Control
 *   **Action:** 
+    *   *Need a Minion?* **Summon Undead** (Concentration).
     *   *Big Threat?* **Polymorph** (Enemy -> Frog) or **Hypnotic Pattern**.
     *   *Swarm?* **Fireball**.
     *   *Defense Needed?* **Mirror Image** (No concentration).
@@ -49,9 +54,8 @@
 *   **Reaction:** Save for **Counterspell** or **Shield**.
 
 ### Round 2+: Sustain & Damage
-*   **Attack:** Use *Darkbolt* (Single Target) or *Toll the Dead*.
-*   **Heal/Sustain:** Use *Vampiric Touch* if you are hurt.
-*   **Utility:** Use *Misty Step* to reposition.
+*   **Attack:** Use *Darkbolt*, *Toll the Dead*, or *Vampiric Touch*.
+*   **Utility:** Use *Misty Step*, *Invisibility*, or *Remove Curse*.
 
 ---
 
@@ -60,19 +64,25 @@
 ### Daily Maintenance
 1.  **Undead:** Cast *Animate Dead* (3rd level) to maintain control of Rose, Thorn, and Mook.
 2.  **Armor:** Cast *Mage Armor* (1st level).
-3.  **Scout:** Send Ink (Raven) ahead.
+3.  **Bolster:** Cast *False Life* (Free via Shadow Touched).
+4.  **Scout:** Send Ink (Raven) ahead.
 
 ### Short Rest
 *   **Arcane Recovery:** Recover up to **4 levels** of slots (e.g., one 4th-level slot).
-*   **Grim Harvest:** Resets (1/turn, but ability refreshes constantly? No, Grim Harvest is passive 1/turn. Arcane Recovery is 1/day).
 
 ### Long Rest
-*   **Prepare Spells:** Select 11 spells.
-*   **Reset:** Regain all slots (4/3/3/1) and HP.
+*   **Prepare Spells:** Select 13 spells.
+*   **Reset:** Regain all slots (4/3/3/2) and HP.
 
 ---
 
 ## Foundry VTT Macros 🛠️
+
+**Undead Squad Attack (Script Macro):**
+*Full script saved in `foundry_macros.js`*
+- Rolls 3 attacks (+5) for Rose, Thorn, and Mook simultaneously.
+- Detects Crits and Fumbles.
+
 **Mage Armor Toggle (Script Macro):**
 ```javascript
 const actor = canvas.tokens.controlled[0]?.actor || game.user.character;
