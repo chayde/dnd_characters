@@ -1,6 +1,5 @@
 // Silas Graves - Undead Squad Attack Roll
-// Rolls attacks for the squad (Rose, Thorn, Kid wolf1, Kid wolf2)
-// Instructions: Create a new Macro in Foundry, set Type to 'Script', paste this code.
+// IMPORTANT: Ensure Macro Type is set to 'Script' (not 'Chat') below the macro name.
 
 const attackBonus = 5;
 const minions = [
@@ -12,19 +11,18 @@ const minions = [
 
 let messageContent = `<h3>💀 Undead Squad Attack!</h3><hr>`;
 
-// We build the message first, then send it
 for (let minion of minions) {
-    let r = new Roll(`1d20 + @bonus`, {bonus: attackBonus});
+    // Using template literal for simple bonus to avoid data object issues
+    let r = new Roll(`1d20 + ${attackBonus}`);
     await r.evaluate();
 
-    // Check for Crit/Fumble on the d20 term
+    // Check for Crit/Fumble on the d20 (first term)
     const d20 = r.terms[0].total;
     let color = "black";
     let extra = "";
     if (d20 === 20) { color = "green"; extra = " <b>(CRIT!)</b>"; }
     else if (d20 === 1) { color = "red"; extra = " <b>(MISS)</b>"; }
 
-    // Add line to message
     messageContent += `
     <div style="font-size: 1.1em; margin-bottom: 4px;">
         <strong>${minion.name}:</strong>
