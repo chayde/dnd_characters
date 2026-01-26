@@ -8,6 +8,26 @@ This file tracks session-by-session progress on developing Silas Graves for the 
 
 ---
 
+## Session January 25, 2026 - Squad Expansion & Name Selection
+
+### Date
+January 25, 2026
+
+### Session Summary
+Silas expanded his undead squad by raising two werewolf children discovered during the campaign. Silas chose the names **Yip** and **Yap** for them, maintaining his philosophy of giving tragic souls a new, peaceful purpose.
+
+### Key Decisions Made
+- **New Minions:** Raised Yip and Yap (Skeletons).
+- **Macro Update:** Refactored the FoundryVTT "Undead Squad" macro to include the new members and fixed a syntax error.
+- **Squad Status:** Reached maximum capacity (5/5) for standard *Animate Dead* control.
+
+### Changes to Character Files
+- **foundry_macros.js:** Updated with Yip and Yap; clarified script type.
+- **character-sheet.md:** Added Yip and Yap to equipment and companions; updated undead count.
+- **combatcheatsheet.md:** Added Yip and Yap to combat table and maintenance list.
+
+---
+
 ## Session December 28, 2025 - Level 7 Advancement & Combat Prep
 
 ### Date

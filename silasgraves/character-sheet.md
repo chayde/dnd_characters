@@ -106,6 +106,8 @@
 - Vial of embalming fluid
 - **Bones of Rose Durst** (child from Death House, animated as skeleton)
 - **Bones of Thorn Durst** (child from Death House, animated as skeleton)
+- **Bones of Yip** (werewolf child, animated as skeleton)
+- **Bones of Yap** (werewolf child, animated as skeleton)
 - **Corpse of Mook** (defeated Revenant, animated as zombie)
 
 ### Currency
@@ -172,6 +174,22 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 - **Background:** Son of the Durst family, recovered from the Death House
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
+**Yip** (Skeleton - Undead Thralls Enhanced)
+- **AC:** 13
+- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **Speed:** 30 ft.
+- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Background:** Werewolf child raised by Silas
+- **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
+
+**Yap** (Skeleton - Undead Thralls Enhanced)
+- **AC:** 13
+- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **Speed:** 30 ft.
+- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Background:** Werewolf child raised by Silas
+- **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
+
 **Mook** (Zombie - Undead Thralls Enhanced)
 - **AC:** 8
 - **HP:** 30 (base 22 + 8 from Undead Thralls)
@@ -181,8 +199,8 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 - **Background:** Former Revenant defeated in combat, claimed by Silas
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
-**Silas's Treatment:** Views all three undead as extended versions of their former selves, giving them continued purpose beyond death. Rose and Thorn represent tragic children given new meaning, while Mook represents a restless spirit finally given peaceful service. Treats them respectfully as companions rather than mere tools.
+**Silas's Treatment:** Views the squad as extended versions of their former selves, giving them continued purpose beyond death. Rose and Thorn represent tragic children given new meaning, Yip and Yap are his "wild pups," and Mook represents a restless spirit finally given peaceful service. Treats them respectfully as companions rather than mere tools.
 
-**Current Undead Count:** 3 of 5 maximum
+**Current Undead Count:** 5 of 5 maximum
 **Undead Thralls Bonus:** All animated undead gain +8 HP and +3 damage from Undead Thralls feature at level 8
 

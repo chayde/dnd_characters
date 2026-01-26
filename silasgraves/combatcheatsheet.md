@@ -28,6 +28,8 @@
 |------|------|----|----|--------|--------|------|
 | **Rose** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
 | **Thorn** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
+| **Yip** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
+| **Yap** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
 | **Mook** | Zombie | 8 | 30 | +4 | 1d6+4 | Melee Tank (Undead Fortitude) |
 
 ---
@@ -62,7 +64,7 @@
 ## Daily & Rest Cheatsheet
 
 ### Daily Maintenance
-1.  **Undead:** Cast *Animate Dead* (3rd level) to maintain control of Rose, Thorn, and Mook.
+1.  **Undead:** Cast *Animate Dead* (3rd level) twice or once with a higher slot to maintain control of Rose, Thorn, Yip, Yap, and Mook.
 2.  **Armor:** Cast *Mage Armor* (1st level).
 3.  **Bolster:** Cast *False Life* (Free via Shadow Touched).
 4.  **Scout:** Send Ink (Raven) ahead.
