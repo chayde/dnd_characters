@@ -18,7 +18,7 @@ Each subdirectory represents a self-contained "project" for a specific character
 | **`chancemcginty/`** | **`Chance McGinty`** | **`Monk (Open Hand) 3`** | **`The Roadside Brawler.`** A jovial Halfling traveler who challenges strangers to "test their luck." Theme: Luck, Speed, Agility. |
 | **`hrimgarfrostborn/`** | **Hrimgar** | Ranger 2 / Druid (Sea) 7 | **The Winter Storm.** Frost Giant ancestry Goliath. Becomes a massive elemental force of ice and water. |
 | **`klausvonstauffer/`** | **Klaus** | Fighter 2 / Wizard (Scribes) 7 | **The Iron Quill.** Armored "Tank Wizard" who treats magic like military artillery. Sentient Spellbook. |
-| **`kramgor/`** | **Kram Gor** | Paladin (Conquest) 6 | **The Silent Winter.** Goliath Paladin of Auril. Theme: Fear, Cold, Silence. |
+| **`kramgor/`** | **~~Kram Gor~~** | **DECEASED** (Lvl 6) | **The Silent Winter.** Fallen in battle against a Lich. His silence is now absolute. |
 | **`silasgraves/`** | **Silas Graves** | Wizard (Necromancer) 7 | **The Benevolent Lich.** Rock Gnome Necromancer who treats undead as companions. |
 | **`vesper/`** | **Vesper** | Druid (Stars) 9 | **The Cosmic Vessel.** Small Scourge Aasimar channeling the terrifying power of the cosmos. |
 

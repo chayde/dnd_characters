@@ -1,7 +1,13 @@
-# Kram Gor – Oath of Conquest Paladin
+# Kram Gor – Oath of Conquest Paladin (DECEASED)
 
-**Level 6** | Goliath (Frost Giant Ancestry) | Lawful Neutral | Farmer Background
+**Status:** Deceased (Sunday, February 1, 2026)
+**Cause of Death:** Failed 3 Death Saves during a final stand against a Lich.
+**Final Level:** 6 | Goliath (Frost Giant Ancestry) | Lawful Neutral | Farmer Background
 **Deity:** Auril, the Frostmaiden
+
+---
+
+> *"The stillness has come. The winter is complete."*
 
 ---
 
