@@ -17,7 +17,7 @@
     *   **If Hit:** Deal 2d6 + 9 bludgeoning.
         *   **CRUSHER:** Push target 5ft.
         *   **TOPPLE:** Target makes **DC 16 CON Save** or falls **PRONE**.
-        *   **PUSHING ATTACK (Optional):** Add 1d8 dmg + Push 15ft (Total 20ft push!).
+        **MENACING ATTACK (Optional):** Add 1d8 dmg + **Frightened** (DC 16 WIS Save).
 2.  **Attack 2 (Maul):** Roll d20 + 9.
     *   *(If target is Prone, roll with Advantage!)*
     *   **If Hit:** Deal 2d6 + 9 bludgeoning.
@@ -55,7 +55,7 @@
 | :--- | :--- | :--- |
 | **Standard Hit (Maul)** | 2d6 + 9 | **16** |
 | **Riposte Hit** | 2d6 + 9 + 1d8 | **20.5** |
-| **Pushing Attack Hit** | 2d6 + 9 + 1d8 | **20.5** |
+| **Menacing Attack Hit** | 2d6 + 9 + 1d8 | **20.5** |
 | **Full Turn (2 Hits)** | (2d6+9) + (2d6+9) | **32** |
 | **ACTION SURGE (4 Hits)** | (2d6+9)x4 | **64** |
 
@@ -64,7 +64,7 @@
 ## 5. TACTICAL REMINDERS
 
 *   **You are a Wall:** With Bait and Switch + Cloak of Displacement, you can easily reach **AC 24+ with Disadvantage**. Stand in doorways. Block monsters.
-*   **The Yeet:** Hitting someone with **Pushing Attack + Crusher** launches them **20 feet**. This is huge.
+*   **Dread Lockdown:** Using **Menacing Attack** stops an enemy from moving closer to you. If you hit them and then step back (or use Crusher to push them), they are stuck and can't hit you with melee attacks.
 *   **Topple First:** Always try to knock them Prone with your first attack so your second attack (and your allies) get Advantage.
 *   **Tactical Mind:** Failed a Perception or Athletics check? Spend a **Second Wind** to add 1d10 to the roll. You rarely fail.
 

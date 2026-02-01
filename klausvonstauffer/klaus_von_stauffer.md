@@ -100,10 +100,10 @@
 - **Effect:** Spend 1 die. Make a melee weapon attack against the creature. If you hit, add +1d8 to the damage.
 - **Synergy:** Cloak of Displacement makes them miss -> You hit them back hard.
 
-**3. Pushing Attack**
+**3. Menacing Attack**
 - **Trigger:** When you hit with a weapon attack.
-- **Effect:** Spend 1 die. Add +1d8 to damage. Target must make STR Save (DC 16) or be pushed **15 feet** away.
-- **Synergy:** Combine with Crusher (5ft) to push them **20 feet**.
+- **Effect:** Spend 1 die. Add +1d8 to damage. Target must make WIS Save (DC 16) or be **Frightened** of you until the end of your next turn.
+- **Synergy:** A Frightened enemy has Disadvantage on attacks and **cannot move closer to you**. Combined with your Cloak, they practically cannot hit you.
 
 ### Feats
 - **Tough (Origin):** +2 HP per level. (+12 HP total).
@@ -120,11 +120,11 @@
 2.  **Bait and Switch:** Swap places. Give yourself the AC boost (AC 20-27).
 3.  **Result:** The enemy is now facing you instead of the squishy Wizard. They have Disadvantage to hit you (Cloak). If they miss, you **Riposte**.
 
-### The "Get Back" Offense
+### The "Dread Lockdown" Offense
 1.  **Attack with Maul:** Hit for 2d6+9.
-2.  **Apply Crusher:** Push 5 ft.
-3.  **Apply Pushing Attack:** Add 1d8 dmg + Push 15 ft.
-4.  **Result:** Enemy takes massive damage and is launched **20 feet** away, likely off a cliff or into a hazard.
+2.  **Menacing Attack:** Add 1d8 dmg + Frighten (DC 16 WIS).
+3.  **Result:** The enemy is Frightened. They have Disadvantage on attacks and cannot move toward you.
+4.  **Step Back:** Use your 5ft **Crusher** push to knock them back, then step back 5ft yourself. Now, the melee enemy is stuck—they can't move closer to hit you, and they can't hit your allies effectively.
 
 ### The "Dread" Factor
 Even without Charisma, your presence is terrifying. The **Dread Helm** glowing red, the massive armor, and the fact that you move faster than a man your size should (Alert feat) makes you a force of nature.
