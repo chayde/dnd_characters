@@ -1,6 +1,6 @@
-# Klaus von Stauffer - Battle Master Fighter
+# Klaus Coldmark - Battle Master Fighter
 
-![Klaus von Stauffer](Klaus.png)
+![Klaus Coldmark](Klaus.png)
 
 **Level 6** | Human | Farmer Background | Lawful Neutral
 **Theme:** The Iron Warlord of Ten-Towns. A silent, terrifying tactical genius who controls the battlefield with massive strikes and impenetrable defense.

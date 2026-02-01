@@ -5,8 +5,8 @@ const attackBonus = 5;
 const minions = [
     { name: "Rose", type: "Ranged" },
     { name: "Thorn", type: "Ranged" },
-    { name: "Kid wolf1", type: "Ranged" },
-    { name: "Kid wolf2", type: "Ranged" }
+    { name: "Yip", type: "Ranged" },
+    { name: "Yap", type: "Ranged" }
 ];
 
 let messageContent = `<h3>💀 Undead Squad Attack!</h3><hr>`;
