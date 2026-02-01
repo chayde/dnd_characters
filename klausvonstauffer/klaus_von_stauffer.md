@@ -130,8 +130,8 @@ Even without Charisma, your presence is terrifying. The **Dread Helm** glowing r
 ---
 
 ## Character Description
-**Appearance:** Klaus is a walking fortress. He wears heavy Plate Armor, battered and repaired by his own hand (Smith's Tools). A heavy iron helm (Dread Helm) obscures his face, glowing with faint red light. A shimmering cloak (Displacement) makes his silhouette blur and shift.
-**Personality:** Socially inept (-3 CHA). He views combat as a solvable equation. He protects his team not out of warmth, but out of efficiency.
-**Background:** A farmer who lost everything to the cold. He adapted by becoming harder than the ice itself.
+**Appearance:** Klaus is a void in the blinding white of the Dale. He is clad in featureless, matte-gray Plate Armor that seems to absorb light rather than reflect it. He wears a heavy "Great Helm" with a narrow T-visor, completely hiding his face and giving him a cold, robotic presence. His massive maul is a block of dark iron on a steel haft. His Cloak of Displacement hangs like a shifting shadow, making his exact position difficult to pin down.
+**Personality:** Socially inept (-3 CHA) and utterly pragmatic. He does not boast or threaten. He simply occupies space that enemies want, and refuses to move. He is the wall that breaks the wind.
+**Background:** A survivor who realized that in the Everlasting Rime, hope is heavy, but steel is reliable. He forged himself into a weapon to protect what little remains of Ten-Towns.
 
-*"Move. Or be moved."*
+*"..." (Klaus simply points his maul at the enemy, then at the ground.)*
