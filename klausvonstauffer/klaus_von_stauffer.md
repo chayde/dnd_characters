@@ -1,7 +1,7 @@
-# Klaus von Stauffer - Rune Knight Fighter
+# Klaus von Stauffer - Battle Master Fighter
 
 **Level 6** | Human | Farmer Background | Lawful Neutral
-**Theme:** The Titan of Ten-Towns. A massive, socially awkward warrior who channels the power of giants.
+**Theme:** The Iron Warlord of Ten-Towns. A silent, terrifying tactical genius who controls the battlefield with massive strikes and impenetrable defense.
 
 ---
 
@@ -19,7 +19,7 @@
 - **Speed:** 30 ft.
 - **Proficiency Bonus:** +3
 - **Passive Perception:** 15
-- **Rune Save DC:** 15 (8 + Prof 3 + CON 4)
+- **Maneuver Save DC:** 16 (8 + Prof 3 + STR 5)
 
 ### Saving Throws
 | **STR** | **DEX** | **CON** | **INT** | **WIS** | **CHA** |
@@ -32,13 +32,14 @@
 |:------|:-----:|:------|
 | Animal Handling | +5 | Proficient (Farmer) |
 | **Athletics** | **+8** | Proficient (Fighter) |
+| **Insight** | **+5** | Proficient (Student of War) |
 | Perception | +5 | Proficient (Fighter) |
 | Survival | +5 | Proficient (Human) |
 
-*(Tools: Carpenter's Tools, Smith's Tools. Double Proficiency on ALL tools via Fire Rune!)*
+*(Tools: Carpenter's Tools, Smith's Tools)*
 
 ### Languages
-- Common, Giant, Dwarvish, Orc
+- Common, Dwarvish, Orc
 
 ---
 
@@ -51,8 +52,7 @@
 - **On Hit:**
     - **Push 5ft** (Crusher Feat)
     - **Topple (Mastery):** DC 16 CON save or fall Prone.
-    - **Fire Rune (Optional):** +2d6 fire and Restrain.
-    - **Giant's Might (Optional):** +1d6 extra damage (once/turn).
+    - **Maneuvers (Optional):** +1d8 damage + Push 15ft (Pushing Attack).
 
 **2. Greatsword (Backup)**
 - **To Hit:** +8
@@ -74,7 +74,7 @@
 
 ---
 
-## SECTION 3: Class Features & Runes
+## SECTION 3: Class Features & Maneuvers
 
 ### Fighter Features (Level 6)
 - **Second Wind (3/Long Rest):** Bonus Action to regain 1d10 + 6 HP.
@@ -82,22 +82,26 @@
 - **Tactical Mind:** Expend a Second Wind to add 1d10 to a failed Ability Check.
 - **Weapon Mastery:** Maul (Topple), Greatsword (Graze), Heavy Crossbow (Push), Battleaxe (Vex).
 
-### Rune Knight Features (Level 6)
-- **Giant's Might (3/Long Rest):**
-    - **Bonus Action:** Become **Large** for 10 minutes.
-    - **Advantage** on Strength Checks/Saves.
-    - **Extra Damage:** +1d6 on one hit per turn.
-- **Runic Shield (Level 7 - Coming Soon):** Reroll enemy attacks.
+### Battle Master Features (Level 6)
+- **Combat Superiority:** You have **4 Superiority Dice (d8)**. You regain all of them when you finish a short or long rest.
+- **Student of War:** Proficiency in Insight and Smith's Tools.
+- **Maneuver Save DC:** 16 (Very hard for enemies to beat).
 
-### Active Runes (2 Known - DC 15)
-**1. Cloud Rune**
-- **Passive:** Advantage on Deception/Sleight of Hand.
-- **Active (Reaction):** When a creature hits with an attack within 30ft, redirect it to another creature (other than the attacker). **(1/Short Rest)**.
+### Active Maneuvers (3 Known)
+**1. Bait and Switch**
+- **Action:** None (Cost: 5ft movement).
+- **Effect:** Switch places with a willing creature within 5ft. Roll 1d8 and add the number to **your AC** or **the creature's AC** until the start of your next turn.
+- **Use Case:** Rescue the Wizard. Swap with them. You now have AC 19 + 1d8 + Cloak of Displacement.
 
-**2. Fire Rune**
-- **Passive:** Double proficiency with all tools.
-- **Active (When you hit):** Target takes +2d6 fire damage and must make STR Save (DC 15).
-    - **Failure:** **Restrained** for 1 minute. Takes 2d6 fire dmg at start of each turn. Save ends. **(1/Short Rest)**.
+**2. Riposte**
+- **Trigger:** Reaction when a creature **misses** you with a melee attack.
+- **Effect:** Spend 1 die. Make a melee weapon attack against the creature. If you hit, add +1d8 to the damage.
+- **Synergy:** Cloak of Displacement makes them miss -> You hit them back hard.
+
+**3. Pushing Attack**
+- **Trigger:** When you hit with a weapon attack.
+- **Effect:** Spend 1 die. Add +1d8 to damage. Target must make STR Save (DC 16) or be pushed **15 feet** away.
+- **Synergy:** Combine with Crusher (5ft) to push them **20 feet**.
 
 ### Feats
 - **Tough (Origin):** +2 HP per level. (+12 HP total).
@@ -107,34 +111,27 @@
 
 ---
 
-## SECTION 4: Combat Tactics (The "Titan" Playbook)
+## SECTION 4: Combat Tactics
 
-### The Opener
-1.  **Initiative:** With +6, you likely go first.
-2.  **Bonus Action:** Activate **Giant's Might**. Grow to Large size.
-3.  **Movement:** Close the gap. You occupy a 10x10 space now.
-4.  **Action:** Attack with **+1 Maul**.
-    - **Hit 1:** 2d6+9 (Maul) + 1d6 (Giant) + Push 5ft (Crusher) + Topple (Mastery).
-    - **Hit 2:** 2d6+9.
-    - **Result:** Enemy is likely Prone, Pushed, and heavily damaged.
+### The "Iron Wall" Defense
+1.  **Ally in trouble?** Move adjacent to them.
+2.  **Bait and Switch:** Swap places. Give yourself the AC boost (AC 20-27).
+3.  **Result:** The enemy is now facing you instead of the squishy Wizard. They have Disadvantage to hit you (Cloak). If they miss, you **Riposte**.
 
-### The "No U" Button (Cloud Rune)
-Save your Reaction for when the enemy lands a **Critical Hit** on you or an ally. Use **Cloud Rune** to redirect that crit onto one of the enemy's minions.
+### The "Get Back" Offense
+1.  **Attack with Maul:** Hit for 2d6+9.
+2.  **Apply Crusher:** Push 5 ft.
+3.  **Apply Pushing Attack:** Add 1d8 dmg + Push 15 ft.
+4.  **Result:** Enemy takes massive damage and is launched **20 feet** away, likely off a cliff or into a hazard.
 
-### The Boss Killer (Fire Rune)
-On your first hit against a boss, activate **Fire Rune**. If they fail the DC 15 STR save, they are **Restrained**.
-- They have 0 Speed.
-- You have Advantage on attacks against them.
-- They have Disadvantage on DEX saves (Fireballs!).
-
-### Crowd Control
-Use **Crusher** to knock enemies into hazards or off cliffs. Use **Topple** to knock flying enemies out of the sky (if you can reach them) or ground them for your melee allies.
+### The "Dread" Factor
+Even without Charisma, your presence is terrifying. The **Dread Helm** glowing red, the massive armor, and the fact that you move faster than a man your size should (Alert feat) makes you a force of nature.
 
 ---
 
 ## Character Description
-**Appearance:** Klaus is a mountain of a man, even before he grows. He wears battered Plate Armor covered in furs. A heavy iron helm (Dread Helm) obscures his face, glowing with faint red light. He speaks rarely, usually just a grunt or a single word.
-**Personality:** Socially inept (-3 CHA). He doesn't understand sarcasm, metaphors, or fear. He simply solves problems by becoming larger than the problem.
-**Background:** A farmer whose land was crushed by the eternal winter. He found giant runes in the frozen earth and they changed him. Now, he fights to reclaim the warmth.
+**Appearance:** Klaus is a walking fortress. He wears heavy Plate Armor, battered and repaired by his own hand (Smith's Tools). A heavy iron helm (Dread Helm) obscures his face, glowing with faint red light. A shimmering cloak (Displacement) makes his silhouette blur and shift.
+**Personality:** Socially inept (-3 CHA). He views combat as a solvable equation. He protects his team not out of warmth, but out of efficiency.
+**Background:** A farmer who lost everything to the cold. He adapted by becoming harder than the ice itself.
 
-*"I do not need to speak. The mountain does not speak."*
+*"Move. Or be moved."*
