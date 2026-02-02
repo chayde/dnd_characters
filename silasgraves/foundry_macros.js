@@ -36,3 +36,45 @@ ChatMessage.create({
     content: messageContent,
     speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
 });
+
+/* ------------------------------------------------------------ */
+
+// Silas Graves - Undead Squad Attack (ADVANTAGE)
+// Rolls attacks with Advantage (2d20 keep highest) for the squad.
+
+const attackBonusAdv = 5;
+const minionsAdv = [
+    { name: "Rose", type: "Ranged" },
+    { name: "Thorn", type: "Ranged" },
+    { name: "Yip", type: "Ranged" },
+    { name: "Yap", type: "Ranged" }
+];
+
+let messageContentAdv = `<h3>💀 Undead Squad (Advantage)!</h3><hr>`;
+
+for (let minion of minionsAdv) {
+    // 2d20kh means "Roll 2 d20s, keep the highest"
+    let r = new Roll(`2d20kh + ${attackBonusAdv}`);
+    await r.evaluate();
+
+    // Calculate the natural roll by subtracting the bonus
+    const naturalRoll = r.total - attackBonusAdv;
+    
+    let color = "black";
+    let extra = "";
+    if (naturalRoll === 20) { color = "green"; extra = " <b>(CRIT!)</b>"; }
+    else if (naturalRoll === 1) { color = "red"; extra = " <b>(MISS)</b>"; }
+
+    messageContentAdv += `
+    <div style="font-size: 1.1em; margin-bottom: 4px;">
+        <strong>${minion.name}:</strong>
+        <span style="color: ${color}; font-weight: bold; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eef;">
+            ${r.total}
+        </span>${extra}
+    </div>`;
+}
+
+ChatMessage.create({
+    content: messageContentAdv,
+    speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
+});
