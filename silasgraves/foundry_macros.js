@@ -78,3 +78,74 @@ ChatMessage.create({
     content: messageContentAdv,
     speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
 });
+
+/* ------------------------------------------------------------ */
+
+// Silas Graves - Undead Squad Damage Roller
+// Prompts for number of hits, then rolls 1d6+6 for each.
+
+let d = new Dialog({
+  title: "💀 Undead Squad Damage",
+  content: `
+    <form>
+      <div class="form-group">
+        <label>How many skeletons hit?</label>
+        <input type="number" name="hits" value="1" autofocus/>
+      </div>
+    </form>
+  `,
+  buttons: {
+    roll: {
+      icon: '<i class="fas fa-dice-d20"></i>',
+      label: "Roll Damage",
+      callback: (html) => {
+        let hits = parseInt(html.find('[name="hits"]').val());
+        rollSkeletonDamage(hits);
+      }
+    }
+  },
+  default: "roll"
+}).render(true);
+
+async function rollSkeletonDamage(hits) {
+    if (hits <= 0) return;
+
+    // Damage formula from Character Sheet (1d6 + 6)
+    const damageFormula = "1d6 + 6";
+    
+    let totalDamage = 0;
+    let rollResults = [];
+
+    // Roll for each hit
+    for (let i = 0; i < hits; i++) {
+        let r = new Roll(damageFormula);
+        await r.evaluate();
+        totalDamage += r.total;
+        rollResults.push(r.total);
+    }
+
+    // Build the Chat Message
+    let messageContent = `
+    <h3>💀 Skeleton Damage (${hits} Hits)</h3>
+    <hr>
+    <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px;">
+    `;
+
+    // Show individual dice
+    for (let dmg of rollResults) {
+        messageContent += `
+        <span style="border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eee; font-weight: bold;">
+            ${dmg}
+        </span>`;
+    }
+
+    messageContent += `</div><hr>
+    <div style="font-size: 1.4em; font-weight: bold; text-align: center; color: darkred;">
+        Total: ${totalDamage} Damage
+    </div>`;
+
+    ChatMessage.create({
+        content: messageContent,
+        speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
+    });
+}
