@@ -8,6 +8,7 @@
 ---
 
 ## SECTION 1: Character Sheet
+[View Level 7-12 Build Plan](build_plan.md)
 
 ### Ability Scores & Modifiers
 | **STR** | **DEX** | **CON** | **INT** | **WIS** | **CHA** |
@@ -109,7 +110,10 @@
 - **Tough (Origin):** +2 HP per level. (+12 HP total).
 - **Alert (Origin):** +Proficiency to Initiative (+6 total). Can swap initiative.
 - **Crusher (Level 4):** +1 CON. Push enemy 5ft on bludgeoning hit. Crits grant Advantage to allies.
-- **Great Weapon Master (Level 6):** +1 STR. Add PB (+3) to heavy weapon damage. Bonus Action attack on crit/kill.
+- **Sentinel (Level 6):** +1 STR. 
+    - **Speed to 0:** When you hit a creature with an Opportunity Attack, its speed becomes 0 for the rest of the turn.
+    - **Disengage Ignored:** Creatures provoke Opportunity Attacks even if they take the Disengage action.
+    - **Reaction Strike:** When a creature within 5ft makes an attack against a target other than you, you can use your Reaction to make a melee weapon attack against the attacking creature.
 
 ---
 
@@ -120,11 +124,14 @@
 2.  **Bait and Switch:** Swap places. Give yourself the AC boost (AC 20-27).
 3.  **Result:** The enemy is now facing you instead of the squishy Wizard. They have Disadvantage to hit you (Cloak). If they miss, you **Riposte**.
 
-### The "Dread Lockdown" Offense
-1.  **Attack with Maul:** Hit for 2d6+9.
-2.  **Menacing Attack:** Add 1d8 dmg + Frighten (DC 16 WIS).
-3.  **Result:** The enemy is Frightened. They have Disadvantage on attacks and cannot move toward you.
-4.  **Step Back:** Use your 5ft **Crusher** push to knock them back, then step back 5ft yourself. Now, the melee enemy is stuck—they can't move closer to hit you, and they can't hit your allies effectively.
+### The "Anika's Shadow" (Sentinel + Topple + Crusher)
+1.  **Trigger:** An enemy tries to move away from you to reach Anika, or attacks her while you are within 5ft.
+2.  **Sentinel Strike:** Use your Reaction to attack with your Maul.
+3.  **The Lockdown:** 
+    - **Sentinel:** If you hit, their speed becomes 0.
+    - **Topple (Mastery):** They must make a DC 16 CON save or fall **Prone**.
+    - **Crusher:** Push them 5ft away from Anika.
+4.  **Result:** The enemy is Prone, 5ft away from their target, and has **0 Speed**. Since standing up costs half your movement, and they have 0 movement, they are stuck on the ground, granting Advantage to all your melee attacks on your next turn.
 
 ### The "Dread" Factor
 Even without Charisma, your presence is terrifying. The **Dread Helm** glowing red, the massive armor, and the fact that you move faster than a man your size should (Alert feat) makes you a force of nature.

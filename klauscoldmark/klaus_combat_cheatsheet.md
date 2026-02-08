@@ -34,39 +34,44 @@
 
 | Trigger | Reaction Ability | Effect |
 | :--- | :--- | :--- |
-| **Enemy MISSES you** | **RIPOSTE** (1 Sup. Die) | **Attack them immediately.** Add 1d8 to damage. *(Best usage!)* |
+| **Enemy attacks Anika** | **SENTINEL** | **Attack them immediately.** If you hit, their speed becomes 0. |
+| **Enemy MISSES you** | **RIPOSTE** (1 Sup. Die) | **Attack them immediately.** Add 1d8 to damage. |
+| **Enemy moves away** | **SENTINEL / Opp. Attack** | Attack them. Their speed becomes 0. Use **Topple** to pin them. |
 | **Enemy hits you** | **Cloak of Displacement** | *(Passive)* They have Disadvantage. If they hit, effect turns off until next turn. |
-| **Enemy moves away** | **Opportunity Attack** | Attack them. Use **Crusher** to stop their movement or push them back. |
 
 ---
 
 ## 3. SUPERIORITY DICE (4d8 / Short Rest)
 
 **When to spend them:**
-1.  **Riposte:** Use this whenever an enemy misses you. It's free damage.
-2.  **Bait and Switch:** Use this to save an ally or when you are surrounded and need max AC.
-3.  **Pushing Attack:** Use this to knock enemies off cliffs or away from squishy allies.
+1.  **Bait and Switch:** Use this to save Anika or when you are surrounded and need max AC.
+2.  **Riposte:** Use this whenever an enemy misses you.
+3.  **Menacing Attack:** Use this to keep a dangerous enemy from moving toward Anika.
 
 ---
 
-## 4. DAMAGE CALCULATOR
+## 4. DAMAGE CALCULATOR (Maul)
 
 | Attack Type | Dice Roll | Average Dmg |
 | :--- | :--- | :--- |
-| **Standard Hit (Maul)** | 2d6 + 9 | **16** |
-| **Riposte Hit** | 2d6 + 9 + 1d8 | **20.5** |
-| **Menacing Attack Hit** | 2d6 + 9 + 1d8 | **20.5** |
-| **Full Turn (2 Hits)** | (2d6+9) + (2d6+9) | **32** |
-| **ACTION SURGE (4 Hits)** | (2d6+9)x4 | **64** |
+| **Standard Hit** | 2d6 + 6 | **13** |
+| **Sentinel/Riposte Hit** | 2d6 + 6 (+1d8 if Riposte) | **13 - 17.5** |
+| **Full Turn (2 Hits)** | (2d6+6) x 2 | **26** |
+| **ACTION SURGE (4 Hits)** | (2d6+6) x 4 | **52** |
+
+*(Note: Damage decreased slightly without GWM, but control increased massively.)*
 
 ---
 
 ## 5. TACTICAL REMINDERS
 
-*   **The Sentinel:** Your primary goal is to keep Anika safe. With Bait and Switch + Cloak of Displacement, you can easily reach **AC 24+ with Disadvantage**. Stand in her way. Block monsters. If she's targeted, swap with her.
-*   **Dread Lockdown:** Using **Menacing Attack** stops an enemy from moving closer to you (or her). If you hit them and then step back (or use Crusher to push them), they are stuck and can't hit you with melee attacks.
-*   **Topple First:** Always try to knock them Prone with your first attack so your second attack (and your allies) get Advantage.
-*   **Tactical Mind:** Failed a Perception or Athletics check? Spend a **Second Wind** to add 1d10 to the roll. You rarely fail.
+*   **The Sentinel:** Your primary goal is to keep Anika safe. With Bait and Switch + Cloak of Displacement, you can easily reach **AC 24+ with Disadvantage**. Stand in her way. 
+*   **The Lockdown Combo:** 
+    1. Use **Sentinel** reaction when they attack Anika or move. 
+    2. If you hit, they have **0 Speed**. 
+    3. Use **Topple** mastery. If they fall Prone, they **cannot stand up** (requires movement).
+    4. They are now stuck on the ground, granting Advantage to all melee attacks.
+*   **Tactical Mind:** Failed a Perception or Athletics check? Spend a **Second Wind** to add 1d10 to the roll.
 
 ---
 
