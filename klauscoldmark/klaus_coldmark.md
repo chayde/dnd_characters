@@ -139,3 +139,29 @@ Even without Charisma, your presence is terrifying. The **Dread Helm** glowing r
 **Background:** A survivor who realized that in the Everlasting Rime, hope is heavy, but steel is reliable. He forged himself into a weapon to protect what little remains of Ten-Towns.
 
 *"..." (Klaus simply points his maul at the enemy, then at the ground.)*
+
+
+
+---
+
+
+
+## SECTION 5: Backstory & Relationships
+
+
+
+### The Tribe of the Elk
+
+Klaus was raised within the Tribe of the Elk, one of the nomadic Reghed tribes of Icewind Dale. While his kin were known for their hardiness and vocal traditions, Klaus was the shadow in the corner. In his younger years, he was the quiet kid most people forgot was in the room. This isolation didn't breed resentment, but focus. He spent his solitude studying the mechanics of motion and the lethality of steel, developing a proficiency for martial combat that far outstripped his peers.
+
+
+
+### The Bond of Iron: Anika
+
+Klaus’s world revolved around his older sister, **Anika**. To Klaus, Anika was—and is—perfect. She possessed the grace, social ease, and leadership he lacked. Whenever members of the tribe mistreated or mocked Klaus for his silence or social awkwardness, Anika was his fierce protector. He idolized her, seeing her as someone who could do no wrong.
+
+
+
+### The Vow of Protection
+
+When Anika decided to leave the Tribe of the Elk to make a difference in the wider world, Klaus felt he had no choice. He didn't leave for adventure or altruism; he left because he believes Anika is the most important person in the world, and he is the only one capable of ensuring she survives it. He is her silent sentinel, the iron wall that stands between her and anything that would do her harm.

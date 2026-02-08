@@ -7,10 +7,10 @@
 ## 1. YOUR TURN - ACTION PRIORITY
 
 ### **Step A: MOVE & POSITION**
-- **Ally in Danger?** Move next to them and use **BAIT AND SWITCH**.
+- **Anika (or other Ally) in Danger?** Move next to them and use **BAIT AND SWITCH**.
     - **Cost:** 5ft movement + 1 Superiority Die.
     - **Effect:** Swap places. Add 1d8 to **your AC** (or theirs).
-    - **Result:** You become an unhittable tank (AC 20-27 + Disadvantage).
+    - **Result:** You become an unhittable tank (AC 20-27 + Disadvantage) and Anika is moved to safety.
 
 ### **Step B: ATTACK SEQUENCE**
 1.  **Attack 1 (Maul):** Roll d20 + 9.
@@ -63,8 +63,8 @@
 
 ## 5. TACTICAL REMINDERS
 
-*   **You are a Wall:** With Bait and Switch + Cloak of Displacement, you can easily reach **AC 24+ with Disadvantage**. Stand in doorways. Block monsters.
-*   **Dread Lockdown:** Using **Menacing Attack** stops an enemy from moving closer to you. If you hit them and then step back (or use Crusher to push them), they are stuck and can't hit you with melee attacks.
+*   **The Sentinel:** Your primary goal is to keep Anika safe. With Bait and Switch + Cloak of Displacement, you can easily reach **AC 24+ with Disadvantage**. Stand in her way. Block monsters. If she's targeted, swap with her.
+*   **Dread Lockdown:** Using **Menacing Attack** stops an enemy from moving closer to you (or her). If you hit them and then step back (or use Crusher to push them), they are stuck and can't hit you with melee attacks.
 *   **Topple First:** Always try to knock them Prone with your first attack so your second attack (and your allies) get Advantage.
 *   **Tactical Mind:** Failed a Perception or Athletics check? Spend a **Second Wind** to add 1d10 to the roll. You rarely fail.
 
