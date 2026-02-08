@@ -139,9 +139,16 @@ Even without Charisma, your presence is terrifying. The **Dread Helm** glowing r
 ---
 
 ## Character Description
+
 ![Klaus Portrait](KlausPortrait.png)
 
-**Appearance:** Klaus is a void in the blinding white of the Dale. He is clad in featureless, matte-gray Plate Armor that seems to absorb light rather than reflect it. He wears a heavy "Great Helm" with a narrow T-visor; within the dark slit of the visor, two intense red points of light glow ominously (Dread Helm). His massive maul is a block of dark iron on a steel haft. His Cloak of Displacement hangs like a shifting shadow, making his exact position difficult to pin down. 
+[View Portrait Generation Prompts](portrait_prompt.md)
+
+
+
+**Appearance:** Klaus is a stark contrast against the blinding white of the Dale. In his early 20s, he possesses a rugged, square jawline and piercing blue eyes that seem to hold the cold of the north. His long, jet-black hair is kept in a practical warrior's braid. He is clad in featureless, matte-gray Plate Armor that seems to absorb light rather than reflect it. His massive maul is a block of dark iron on a steel haft. His Cloak of Displacement hangs like a shifting shadow, making his exact position difficult to pin down.
+
+ 
 **Personality:** Socially inept (-3 CHA) and utterly pragmatic. He does not boast or threaten. He simply occupies space that enemies want, and refuses to move. He is the wall that breaks the wind.
 **Background:** A survivor who realized that in the Everlasting Rime, hope is heavy, but steel is reliable. He forged himself into a weapon to protect what little remains of Ten-Towns.
 
