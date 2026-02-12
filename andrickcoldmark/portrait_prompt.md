@@ -1,4 +1,4 @@
-# Portrait Generation Prompts - Klaus Coldmark
+# Portrait Generation Prompts - Andrick Coldmark
 
 **Theme:** The Iron Sentinel
 **Date:** February 8, 2026

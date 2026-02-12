@@ -17,7 +17,7 @@ Each subdirectory represents a self-contained "project" for a specific character
 | **`bwaynebruce/`** | **Bwayne** | Paladin (Vengeance) 9 | **The Divine Enforcer.** Former mob enforcer turned Oath of Vengeance Paladin. Theme: Retribution, Urban Justice. |
 | **`chancemcginty/`** | **`Chance McGinty`** | **`Monk (Open Hand) 3`** | **`The Roadside Brawler.`** A jovial Halfling traveler who challenges strangers to "test their luck." Theme: Luck, Speed, Agility. |
 | **`hrimgarfrostborn/`** | **Hrimgar** | Ranger 2 / Druid (Sea) 7 | **The Winter Storm.** Frost Giant ancestry Goliath. Becomes a massive elemental force of ice and water. |
-| **`klauscoldmark/`** | **Klaus** | Fighter (Battle Master) 6 | **The Iron Sentinel.** A silent, tactical genius from the Tribe of the Elk. Devoted to protecting his sister, Anika. |
+| **`andrickcoldmark/`** | **Andrick** | Fighter (Battle Master) 6 | **The Iron Sentinel.** A silent, tactical genius from the Tribe of the Elk. Devoted to protecting his sister, Anika. |
 | **`kramgor/`** | **~~Kram Gor~~** | **DECEASED** (Lvl 6) | **The Silent Winter.** Fallen in battle against a Lich. His silence is now absolute. |
 | **`silasgraves/`** | **Silas Graves** | Wizard (Necromancer) 7 | **The Benevolent Lich.** Rock Gnome Necromancer who treats undead as companions. |
 | **`vesper/`** | **Vesper** | Druid (Stars) 9 | **The Cosmic Vessel.** Small Scourge Aasimar channeling the terrifying power of the cosmos. |

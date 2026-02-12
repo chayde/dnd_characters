@@ -1,4 +1,4 @@
-# Klaus Coldmark (Battle Master) - Combat Cheatsheet
+# Andrick Coldmark (Battle Master) - Combat Cheatsheet
 
 **Level 6** | AC 19 (Disadvantage to hit you) | HP 76 | Speed 30ft
 

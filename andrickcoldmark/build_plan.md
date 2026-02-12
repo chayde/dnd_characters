@@ -1,7 +1,7 @@
-# Klaus Coldmark - Progression Guide (Levels 7-12)
+# Andrick Coldmark - Progression Guide (Levels 7-12)
 *Primary Ruleset: D&D 5e (2024 Revision)*
 
-This guide outlines Klaus's growth from a dedicated bodyguard to an unstoppable battlefield commander, focusing on his vow to protect his sister, Anika.
+This guide outlines Andrick's growth from a dedicated bodyguard to an unstoppable battlefield commander, focusing on his vow to protect his sister, Anika.
 
 ---
 
@@ -10,14 +10,14 @@ This guide outlines Klaus's growth from a dedicated bodyguard to an unstoppable 
 - **Know Your Enemy:** (2024 Version) You can use a Bonus Action to know an enemy's Damage Resistances, Immunities, and Vulnerabilities.
 - **New Maneuvers:** You learn **2 new maneuvers** and gain **1 more Superiority Die** (Total: 5).
 - **Recommendation:** 
-    1. **Commander's Strike:** Spend a bonus action and a die to let Anika (or another ally) make an attack with their reaction. Perfect for letting her finish a foe Klaus has already Toppled.
+    1. **Commander's Strike:** Spend a bonus action and a die to let Anika (or another ally) make an attack with their reaction. Perfect for letting her finish a foe Andrick has already Toppled.
     2. **Precision Attack:** Ensure those crucial Sentinel or Topple hits land when you really need them.
 
 ---
 
 ## Level 8: The Hammer Falls (Feat Choice)
 **New Features:**
-- **General Feat:** Klaus gains a feat. 
+- **General Feat:** Andrick gains a feat. 
 - **Recommendation: Great Weapon Master.** Now that you've mastered the defensive "Sentinel" arts, it's time to bring back the heavy damage.
 - **Why?** GWM in 2024 gives you **+1 STR** (bringing you to a theoretical 21, though capped at 20—you might want to discuss with your DM if you can put the +1 into DEX instead). Most importantly, it adds your **Proficiency Bonus (+3)** to damage with Heavy weapons and gives you a **Bonus Action Attack** on a crit or kill.
 
@@ -50,10 +50,10 @@ This guide outlines Klaus's growth from a dedicated bodyguard to an unstoppable 
 
 ## Level 12: The Iron Wall (Feat Choice)
 **New Features:**
-- **General Feat:** Klaus gains a feat.
+- **General Feat:** Andrick gains a feat.
 - **Recommendation: Resilient (Wisdom).**
-- **Why?** At this high level, monsters will try to bypass Klaus's AC by using mental saves (Frightened, Charmed, Paralyzed). Since Klaus has a -3 CHA and only +2 WIS, a failed Wisdom save could remove him from the fight, leaving Anika defenseless. 
-- **Stat Boost:** +1 WIS (bringing WIS to 16) and **Proficiency in Wisdom Saves**. Combined with **Indomitable**, Klaus becomes nearly impossible to magically manipulate.
+- **Why?** At this high level, monsters will try to bypass Andrick's AC by using mental saves (Frightened, Charmed, Paralyzed). Since Andrick has a -3 CHA and only +2 WIS, a failed Wisdom save could remove him from the fight, leaving Anika defenseless. 
+- **Stat Boost:** +1 WIS (bringing WIS to 16) and **Proficiency in Wisdom Saves**. Combined with **Indomitable**, Andrick becomes nearly impossible to magically manipulate.
 
 ---
 
