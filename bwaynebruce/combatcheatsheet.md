@@ -14,26 +14,26 @@
 ---
 
 ## Offensive Actions
-| Attack | Damage/Effect | Notes |
-| :--- | :--- | :--- |
-| **Lightning Halberd (+2)** | 1d10 + 11 slashing + 2d6 lightning | Reach, Cleave Mastery |
-| **PM Bonus Attack** | 1d4 + 11 slashing | Bonus Action |
-| **Divine Smite** | +2d8 (1st), +3d8 (2nd), +4d8 (3rd) | Radiant; Bonus Action |
-| **Breath Weapon** | 3d10 Acid (15 ft. Line) | DC 14 Dex Save |
+| Attack | To Hit | Damage/Effect | Notes |
+| :--- | :--- | :--- | :--- |
+| **Halberd (Standard)** | +13 | 1d10 + 9 slashing + 2d6 lightning | Reach |
+| **Halberd (GWM)** | **+8** | **1d10 + 19** slashing + 2d6 lightning | -5 hit / +10 dmg |
+| **PM Bonus Attack** | +13 / +8 | 1d4 + 9 / 19 bludgeoning | Bonus Action |
+| **Divine Smite** | — | +2d8 (1st), +3d8 (2nd), +4d8 (3rd) | Radiant; No Action |
 
 ---
 
 ## ⚡ Combat Routine
 
 ### Round 1: Setup & Lock
-*   **Bonus Action:** *Vow of Enmity* (Advantage for 1 min) or *Misty Step*.
+*   **Bonus Action:** *Vow of Enmity* (Advantage for 1 min). **Crucial for GWM hits!**
 *   **Action:** Two Halberd strikes (Extra Attack).
-*   **Mastery:** *Cleave* (Hit a 2nd target within reach if first hit).
+*   **Power Attack:** Use the **GWM (+8 hit / +19 dmg)** option while you have Advantage.
 
 ### Round 2+: Execute
-*   **GWM Check:** If you Crit or kill, use Bonus Action for an extra full attack.
-*   **Nova:** 2x Attacks + PM Bonus Attack + 3rd Level Divine Smite on hit.
-*   **Reaction:** *Polearm Master* Opportunity Attack when they enter reach.
+*   **Standard Burst:** 2x Attacks + PM Bonus Attack. 
+*   **GWM Proc:** If you Crit or kill, you get a full Halberd swing as a Bonus Action (instead of the 1d4 PM attack).
+*   **Reaction:** *Polearm Master* Opportunity Attack when they enter reach. Smite on hit!
 
 ---
 

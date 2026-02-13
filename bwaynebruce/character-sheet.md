@@ -39,8 +39,8 @@
 **Passive Perception:** 12  
 
 ### Attacks
-*   **Lightning Halberd +2:** +13 to hit, 1d10+11 slashing + 2d6 lightning. (Reach, Heavy, Two-Handed, Cleave).
-*   **Polearm Master (Bonus Action):** +13 to hit, 1d4+11 slashing.
+*   **Lightning Halberd +2:** +13 to hit (+8 with GWM), 1d10+9 slashing + 2d6 lightning (1d10+19 with GWM). (Reach, Heavy, Two-Handed).
+*   **Polearm Master (Bonus Action):** +13 to hit (+8 with GWM), 1d4+9 bludgeoning (1d4+19 with GWM).
 *   **Unarmed Strike:** +11 to hit, 8 bludgeoning.
 
 ---
@@ -48,16 +48,15 @@
 ## Features & Traits
 
 ### Racial Traits (Dragonborn - Black)
-*   **Breath Weapon:** 15-ft line (Acid). DEX Save vs DC 14. 3d10 damage.
+*   **Breath Weapon:** 5 by 30 ft. line (Acid). DEX Save vs DC 14. 3d6 damage (2014 version).
 *   **Draconic Resistance:** Resistance to Acid damage.
 *   **Darkvision:** 60 ft.
 
-### Paladin Class Features (2024)
+### Paladin Class Features (2014)
 *   **Lay on Hands:** 45 HP pool.
-*   **Divine Smite:** (Bonus Action) 2d8 radiant (1st slot), +1d8 per slot level higher.
+*   **Divine Smite:** When you hit with a melee weapon attack, expend one spell slot to deal 2d8 radiant (1st), +1d8 per slot level higher.
 *   **Aura of Protection:** You and allies within 10 ft gain +2 to all saving throws.
 *   **Extra Attack:** Attack twice with the Attack action.
-*   **Weapon Mastery:** Cleave (Halberd).
 
 ### Oath of Vengeance
 *   **Vow of Enmity:** (Bonus Action) Gain Advantage on attack rolls against one creature within 10 ft for 1 minute.
@@ -67,8 +66,12 @@
 ---
 
 ## Feats
-*   **Great Weapon Master:** On a Crit or killing a creature, make one weapon attack as a Bonus Action. Add Proficiency Bonus to damage of Heavy weapons (optional).
-*   **Polearm Master:** When you take the Attack action with a Halberd, make a bonus attack with the butt-end. Creatures provoke Opportunity Attacks when they enter your reach.
+*   **Great Weapon Master (2014):** 
+    *   On a Crit or killing a creature, make one melee weapon attack as a Bonus Action. 
+    *   Take -5 to the attack roll for +10 to damage with a heavy weapon.
+*   **Polearm Master (2014):** 
+    *   When you take the Attack action with a Halberd, make a bonus attack with the butt-end (1d4).
+    *   Creatures provoke Opportunity Attacks when they enter your reach.
 
 ---
 
