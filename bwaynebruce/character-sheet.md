@@ -40,7 +40,7 @@
 
 ### Attacks
 *   **Lightning Halberd +2:** +13 to hit (+8 with GWM), 1d10+9 slashing + 2d6 lightning (1d10+19 with GWM). (Reach, Heavy, Two-Handed).
-*   **Polearm Master (Bonus Action):** +13 to hit (+8 with GWM), 1d4+9 bludgeoning (1d4+19 with GWM).
+*   **Polearm Master (Bonus Action):** +13 to hit (+8 with GWM), 1d4+9 bludgeoning + 2d6 lightning (1d4+19 + 2d6 lightning with GWM).
 *   **Unarmed Strike:** +11 to hit, 8 bludgeoning.
 
 ---

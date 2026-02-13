@@ -18,7 +18,7 @@
 | :--- | :--- | :--- | :--- |
 | **Halberd (Standard)** | +13 | 1d10 + 9 slashing + 2d6 lightning | Reach |
 | **Halberd (GWM)** | **+8** | **1d10 + 19** slashing + 2d6 lightning | -5 hit / +10 dmg |
-| **PM Bonus Attack** | +13 / +8 | 1d4 + 9 / 19 bludgeoning | Bonus Action (Ask DM if +2d6 Lightning applies!) |
+| **PM Bonus Attack** | +13 / +8 | 1d4 + 9 / 19 bludgeoning + 2d6 lightning | Bonus Action (Tip-to-Tail!) |
 | **Divine Smite** | — | +2d8 (1st), +3d8 (2nd), +4d8 (3rd) | Radiant; No Action |
 
 ---
