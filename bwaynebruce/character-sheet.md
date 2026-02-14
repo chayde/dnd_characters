@@ -59,7 +59,7 @@
 *   **Extra Attack:** Attack twice with the Attack action.
 
 ### Oath of Vengeance
-*   **Vow of Enmity:** (Bonus Action) Gain Advantage on attack rolls against one creature within 10 ft for 1 minute.
+*   **Vow of Enmity:** (Action) Gain Advantage on attack rolls against one creature within 10 ft for 1 minute.
 *   **Abjure Enemy:** (Action) Frighten one creature within 60 ft.
 *   **Relentless Avenger:** When you hit a creature with an Opportunity Attack, you can move up to half your speed as part of the reaction.
 

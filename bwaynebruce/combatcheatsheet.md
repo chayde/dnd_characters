@@ -26,12 +26,13 @@
 ## ⚡ Combat Routine
 
 ### Round 1: Setup & Lock
-*   **Bonus Action:** *Vow of Enmity* (Advantage for 1 min). **Crucial for GWM hits!**
-*   **Action:** Two Halberd strikes (Extra Attack).
-*   **Power Attack:** Use the **GWM (+8 hit / +19 dmg)** option while you have Advantage.
+*   **Action:** *Vow of Enmity* (Advantage for 1 min). **Crucial for GWM hits!**
+*   **Bonus Action:** (Optional) *Misty Step* to close distance if needed, or save for next turn.
+*   **Note:** You do NOT attack this round unless you have a Haste action or similar.
 
 ### Round 2+: Execute
-*   **Standard Burst:** 2x Attacks + PM Bonus Attack. 
+*   **Action:** Two Halberd strikes (Extra Attack). Use **GWM (+8 hit / +19 dmg)** while you have Advantage.
+*   **Bonus Action:** PM Bonus Attack (1d4 + 19 + 2d6 Lightning).
 *   **GWM Proc:** If you Crit or kill, you get a full Halberd swing as a Bonus Action (instead of the 1d4 PM attack).
 *   **Reaction:** *Polearm Master* Opportunity Attack when they enter reach. Smite on hit!
 
