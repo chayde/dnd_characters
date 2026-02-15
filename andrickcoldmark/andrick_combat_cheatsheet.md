@@ -7,7 +7,7 @@
 ## 1. YOUR TURN - ACTION PRIORITY
 
 ### **Step A: MOVE & POSITION**
-- **Anika (or other Ally) in Danger?** Move next to them and use **BAIT AND SWITCH**.
+- **Ally in Danger?** Move next to them and use **BAIT AND SWITCH**.
     - **Cost:** 5ft movement + 1 Superiority Die.
     - **Effect:** Swap places. Add 1d8 to **your AC** (or theirs).
     - **Result:** You become an unhittable tank (AC 20-27 + Disadvantage) and Anika is moved to safety.
