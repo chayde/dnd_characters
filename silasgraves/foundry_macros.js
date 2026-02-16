@@ -2,13 +2,14 @@
  * Silas Graves - Foundry VTT Macros
  * 
  * VERSION HISTORY:
+ * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' as a NEW macro.
  * v1.2 (2026-02-15): Updated 'Undead Squad Damage Roller' to show detailed 
  *                   breakdown for each hit (Dice + Bonus) in chat.
  * v1.1 (2025): Added 'Undead Squad Attack (ADVANTAGE)' macro.
  * v1.0 (2025): Initial 'Undead Squad Attack' and 'Damage' macros.
  * ------------------------------------------------------------ */
 
-// Silas Graves - Undead Squad Attack Roll
+// 1. Silas Graves - Undead Squad Attack Roll
 // IMPORTANT: Ensure Macro Type is set to 'Script' (not 'Chat') below the macro name.
 
 const attackBonus = 5;
@@ -49,7 +50,7 @@ ChatMessage.create({
 
 /* ------------------------------------------------------------ */
 
-// Silas Graves - Undead Squad Attack (ADVANTAGE)
+// 2. Silas Graves - Undead Squad Attack (ADVANTAGE)
 // Rolls attacks with Advantage (2d20 keep highest) for the squad.
 
 const attackBonusAdv = 5;
@@ -91,7 +92,7 @@ ChatMessage.create({
 
 /* ------------------------------------------------------------ */
 
-// Silas Graves - Undead Squad Damage Roller
+// 3. Silas Graves - Undead Squad Damage Roller (NORMAL)
 // Prompts for number of hits, then rolls 1d6+6 for each.
 
 let d = new Dialog({
@@ -160,6 +161,85 @@ async function rollSkeletonDamage(hits) {
     messageContent += `</div><hr>
     <div style="font-size: 1.4em; font-weight: bold; text-align: center; color: darkred;">
         Total: ${totalDamage} Damage
+    </div>`;
+
+    ChatMessage.create({
+        content: messageContent,
+        speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
+    });
+}
+
+/* ------------------------------------------------------------ */
+
+// 4. Silas Graves - Undead Squad Damage Roller (CRITICAL)
+// Prompts for number of crits, then rolls 2d6+6 for each.
+
+let dCrit = new Dialog({
+  title: "💀 Undead Squad CRIT Damage",
+  content: `
+    <form>
+      <div class="form-group">
+        <label>How many skeletons crit?</label>
+        <input type="number" name="hits" value="1" autofocus/>
+      </div>
+    </form>
+  `,
+  buttons: {
+    roll: {
+      icon: '<i class="fas fa-dice-d20"></i>',
+      label: "Roll Crit Damage",
+      callback: (html) => {
+        let hits = parseInt(html.find('[name="hits"]').val());
+        rollSkeletonCritDamage(hits);
+      }
+    }
+  },
+  default: "roll"
+}).render(true);
+
+async function rollSkeletonCritDamage(hits) {
+    if (hits <= 0) return;
+
+    // Crit Damage formula (2x Dice + 6)
+    const damageFormula = "2d6 + 6";
+    const bonus = 6;
+    
+    let totalDamage = 0;
+    let rollResults = [];
+
+    // Roll for each hit
+    for (let i = 0; i < hits; i++) {
+        let r = new Roll(damageFormula);
+        await r.evaluate();
+        totalDamage += r.total;
+        
+        // Extract the result of the 2d6 (first term)
+        rollResults.push({
+            dice: r.terms[0].total,
+            total: r.total
+        });
+    }
+
+    // Build the Chat Message
+    let messageContent = `
+    <h3>💀 Skeleton CRIT Damage (${hits} Crits)</h3>
+    <hr>
+    <div style="margin-bottom: 10px;">
+    `;
+
+    // Show individual breakdown for each hit
+    for (let i = 0; i < rollResults.length; i++) {
+        let res = rollResults[i];
+        messageContent += `
+        <div style="display: flex; justify-content: space-between; align-items: center; border: 2px solid darkred; padding: 4px 8px; border-radius: 4px; background: #fff1f1; margin-bottom: 4px;">
+            <span style="font-size: 0.9em;">Crit ${i+1}: 🎲 <b>${res.dice}</b> (2d6) + <b>${bonus}</b></span>
+            <span style="font-weight: bold; color: darkred; font-size: 1.1em;">= ${res.total}</span>
+        </div>`;
+    }
+
+    messageContent += `</div><hr>
+    <div style="font-size: 1.4em; font-weight: bold; text-align: center; color: darkred;">
+        Total Crit: ${totalDamage} Damage
     </div>`;
 
     ChatMessage.create({
