@@ -2,6 +2,7 @@
  * Silas Graves - Foundry VTT Macros
  * 
  * VERSION HISTORY:
+ * v1.4 (2026-02-15): Updated Attack macros to show (Dice + Bonus) breakdown.
  * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' macro with 2d6.
  * v1.2 (2026-02-15): Updated 'Undead Squad Damage Roller' to show detailed 
  *                   breakdown for each hit (Dice + Bonus) in chat.
@@ -30,10 +31,11 @@ for (let minion of minions) {
     else if (d20 === 1) { color = "red"; extra = " <b>(MISS)</b>"; }
 
     messageContent += `
-    <div style="font-size: 1.1em; margin-bottom: 4px;">
+    <div style="font-size: 1.1em; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
         <strong>${minion.name}:</strong>
+        <span style="font-size: 0.9em;">🎲 <b>${d20}</b> + <b>${attackBonus}</b></span>
         <span style="color: ${color}; font-weight: bold; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eee;">
-            ${r.total}
+            = ${r.total}
         </span>${extra}
     </div>`;
 }
@@ -66,10 +68,11 @@ for (let minion of minionsAdv) {
     else if (naturalRoll === 1) { color = "red"; extra = " <b>(MISS)</b>"; }
 
     messageContentAdv += `
-    <div style="font-size: 1.1em; margin-bottom: 4px;">
+    <div style="font-size: 1.1em; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
         <strong>${minion.name}:</strong>
+        <span style="font-size: 0.9em;">🎲 <b>${naturalRoll}</b> (Adv) + <b>${attackBonusAdv}</b></span>
         <span style="color: ${color}; font-weight: bold; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eef;">
-            ${r.total}
+            = ${r.total}
         </span>${extra}
     </div>`;
 }
