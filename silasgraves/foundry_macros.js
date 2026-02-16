@@ -112,6 +112,7 @@ async function rollSkeletonDamage(hits) {
 
     // Damage formula from Character Sheet (1d6 + 6)
     const damageFormula = "1d6 + 6";
+    const bonus = 6;
     
     let totalDamage = 0;
     let rollResults = [];
@@ -121,22 +122,29 @@ async function rollSkeletonDamage(hits) {
         let r = new Roll(damageFormula);
         await r.evaluate();
         totalDamage += r.total;
-        rollResults.push(r.total);
+        
+        // Extract the result of the d6 (first term)
+        rollResults.push({
+            dice: r.terms[0].total,
+            total: r.total
+        });
     }
 
     // Build the Chat Message
     let messageContent = `
     <h3>💀 Skeleton Damage (${hits} Hits)</h3>
     <hr>
-    <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px;">
+    <div style="margin-bottom: 10px;">
     `;
 
-    // Show individual dice
-    for (let dmg of rollResults) {
+    // Show individual breakdown for each hit
+    for (let i = 0; i < rollResults.length; i++) {
+        let res = rollResults[i];
         messageContent += `
-        <span style="border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eee; font-weight: bold;">
-            ${dmg}
-        </span>`;
+        <div style="display: flex; justify-content: space-between; align-items: center; border: 1px solid #ccc; padding: 4px 8px; border-radius: 4px; background: #f9f9f9; margin-bottom: 4px;">
+            <span style="font-size: 0.9em;">Hit ${i+1}: 🎲 <b>${res.dice}</b> + <b>${bonus}</b></span>
+            <span style="font-weight: bold; color: darkred; font-size: 1.1em;">= ${res.total}</span>
+        </div>`;
     }
 
     messageContent += `</div><hr>
