@@ -1,3 +1,13 @@
+/* ------------------------------------------------------------
+ * Silas Graves - Foundry VTT Macros
+ * 
+ * VERSION HISTORY:
+ * v1.2 (2026-02-15): Updated 'Undead Squad Damage Roller' to show detailed 
+ *                   breakdown for each hit (Dice + Bonus) in chat.
+ * v1.1 (2025): Added 'Undead Squad Attack (ADVANTAGE)' macro.
+ * v1.0 (2025): Initial 'Undead Squad Attack' and 'Damage' macros.
+ * ------------------------------------------------------------ */
+
 // Silas Graves - Undead Squad Attack Roll
 // IMPORTANT: Ensure Macro Type is set to 'Script' (not 'Chat') below the macro name.
 
