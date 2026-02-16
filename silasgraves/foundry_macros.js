@@ -2,7 +2,7 @@
  * Silas Graves - Foundry VTT Macros
  * 
  * VERSION HISTORY:
- * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' as a NEW macro.
+ * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' macro with 2d6.
  * v1.2 (2026-02-15): Updated 'Undead Squad Damage Roller' to show detailed 
  *                   breakdown for each hit (Dice + Bonus) in chat.
  * v1.1 (2025): Added 'Undead Squad Attack (ADVANTAGE)' macro.
@@ -10,8 +10,6 @@
  * ------------------------------------------------------------ */
 
 // 1. Silas Graves - Undead Squad Attack Roll
-// IMPORTANT: Ensure Macro Type is set to 'Script' (not 'Chat') below the macro name.
-
 const attackBonus = 5;
 const minions = [
     { name: "Rose", type: "Ranged" },
@@ -23,11 +21,8 @@ const minions = [
 let messageContent = `<h3>💀 Undead Squad Attack!</h3><hr>`;
 
 for (let minion of minions) {
-    // Using template literal for simple bonus to avoid data object issues
     let r = new Roll(`1d20 + ${attackBonus}`);
     await r.evaluate();
-
-    // Check for Crit/Fumble on the d20 (first term)
     const d20 = r.terms[0].total;
     let color = "black";
     let extra = "";
@@ -51,8 +46,6 @@ ChatMessage.create({
 /* ------------------------------------------------------------ */
 
 // 2. Silas Graves - Undead Squad Attack (ADVANTAGE)
-// Rolls attacks with Advantage (2d20 keep highest) for the squad.
-
 const attackBonusAdv = 5;
 const minionsAdv = [
     { name: "Rose", type: "Ranged" },
@@ -64,13 +57,9 @@ const minionsAdv = [
 let messageContentAdv = `<h3>💀 Undead Squad (Advantage)!</h3><hr>`;
 
 for (let minion of minionsAdv) {
-    // 2d20kh means "Roll 2 d20s, keep the highest"
     let r = new Roll(`2d20kh + ${attackBonusAdv}`);
     await r.evaluate();
-
-    // Calculate the natural roll by subtracting the bonus
     const naturalRoll = r.total - attackBonusAdv;
-    
     let color = "black";
     let extra = "";
     if (naturalRoll === 20) { color = "green"; extra = " <b>(CRIT!)</b>"; }
@@ -93,8 +82,6 @@ ChatMessage.create({
 /* ------------------------------------------------------------ */
 
 // 3. Silas Graves - Undead Squad Damage Roller (NORMAL)
-// Prompts for number of hits, then rolls 1d6+6 for each.
-
 let d = new Dialog({
   title: "💀 Undead Squad Damage",
   content: `
@@ -120,35 +107,24 @@ let d = new Dialog({
 
 async function rollSkeletonDamage(hits) {
     if (hits <= 0) return;
-
-    // Damage formula from Character Sheet (1d6 + 6)
     const damageFormula = "1d6 + 6";
     const bonus = 6;
-    
     let totalDamage = 0;
     let rollResults = [];
-
-    // Roll for each hit
     for (let i = 0; i < hits; i++) {
         let r = new Roll(damageFormula);
         await r.evaluate();
         totalDamage += r.total;
-        
-        // Extract the result of the d6 (first term)
         rollResults.push({
             dice: r.terms[0].total,
             total: r.total
         });
     }
-
-    // Build the Chat Message
     let messageContent = `
     <h3>💀 Skeleton Damage (${hits} Hits)</h3>
     <hr>
     <div style="margin-bottom: 10px;">
     `;
-
-    // Show individual breakdown for each hit
     for (let i = 0; i < rollResults.length; i++) {
         let res = rollResults[i];
         messageContent += `
@@ -157,12 +133,10 @@ async function rollSkeletonDamage(hits) {
             <span style="font-weight: bold; color: darkred; font-size: 1.1em;">= ${res.total}</span>
         </div>`;
     }
-
     messageContent += `</div><hr>
     <div style="font-size: 1.4em; font-weight: bold; text-align: center; color: darkred;">
         Total: ${totalDamage} Damage
     </div>`;
-
     ChatMessage.create({
         content: messageContent,
         speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
@@ -171,9 +145,7 @@ async function rollSkeletonDamage(hits) {
 
 /* ------------------------------------------------------------ */
 
-// 4. Silas Graves - Undead Squad Damage Roller (CRITICAL)
-// Prompts for number of crits, then rolls 2d6+6 for each.
-
+// 4. Silas Graves - Undead Squad Damage Roller (CRIT)
 let dCrit = new Dialog({
   title: "💀 Undead Squad CRIT Damage",
   content: `
@@ -199,49 +171,36 @@ let dCrit = new Dialog({
 
 async function rollSkeletonCritDamage(hits) {
     if (hits <= 0) return;
-
-    // Crit Damage formula (2x Dice + 6)
     const damageFormula = "2d6 + 6";
     const bonus = 6;
-    
     let totalDamage = 0;
     let rollResults = [];
-
-    // Roll for each hit
     for (let i = 0; i < hits; i++) {
         let r = new Roll(damageFormula);
         await r.evaluate();
         totalDamage += r.total;
-        
-        // Extract the result of the 2d6 (first term)
         rollResults.push({
             dice: r.terms[0].total,
             total: r.total
         });
     }
-
-    // Build the Chat Message
     let messageContent = `
     <h3>💀 Skeleton CRIT Damage (${hits} Crits)</h3>
     <hr>
     <div style="margin-bottom: 10px;">
     `;
-
-    // Show individual breakdown for each hit
     for (let i = 0; i < rollResults.length; i++) {
         let res = rollResults[i];
         messageContent += `
-        <div style="display: flex; justify-content: space-between; align-items: center; border: 2px solid darkred; padding: 4px 8px; border-radius: 4px; background: #fff1f1; margin-bottom: 4px;">
-            <span style="font-size: 0.9em;">Crit ${i+1}: 🎲 <b>${res.dice}</b> (2d6) + <b>${bonus}</b></span>
+        <div style="display: flex; justify-content: space-between; align-items: center; border: 1px solid #ccc; padding: 4px 8px; border-radius: 4px; background: #f9f9f9; margin-bottom: 4px;">
+            <span style="font-size: 0.9em;">Crit ${i+1}: 🎲 <b>${res.dice}</b> + <b>${bonus}</b></span>
             <span style="font-weight: bold; color: darkred; font-size: 1.1em;">= ${res.total}</span>
         </div>`;
     }
-
     messageContent += `</div><hr>
     <div style="font-size: 1.4em; font-weight: bold; text-align: center; color: darkred;">
         Total Crit: ${totalDamage} Damage
     </div>`;
-
     ChatMessage.create({
         content: messageContent,
         speaker: ChatMessage.getSpeaker({alias: "Silas Graves"})
