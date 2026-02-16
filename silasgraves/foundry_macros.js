@@ -2,6 +2,7 @@
  * Silas Graves - Foundry VTT Macros
  * 
  * VERSION HISTORY:
+ * v1.5 (2026-02-15): Updated Advantage macro to show both dice results.
  * v1.4 (2026-02-15): Updated Attack macros to show (Dice + Bonus) breakdown.
  * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' macro with 2d6.
  * v1.2 (2026-02-15): Updated 'Undead Squad Damage Roller' to show detailed 
@@ -61,7 +62,17 @@ let messageContentAdv = `<h3>💀 Undead Squad (Advantage)!</h3><hr>`;
 for (let minion of minionsAdv) {
     let r = new Roll(`2d20kh + ${attackBonusAdv}`);
     await r.evaluate();
+    
+    // Extract individual dice results
+    const dieTerm = r.terms[0];
+    const res1 = dieTerm.results[0].result;
+    const res2 = dieTerm.results[1].result;
     const naturalRoll = r.total - attackBonusAdv;
+    
+    // Bold the active (kept) die
+    let d1Str = (dieTerm.results[0].active) ? `<b>${res1}</b>` : `${res1}`;
+    let d2Str = (dieTerm.results[1].active) ? `<b>${res2}</b>` : `${res2}`;
+
     let color = "black";
     let extra = "";
     if (naturalRoll === 20) { color = "green"; extra = " <b>(CRIT!)</b>"; }
@@ -70,7 +81,7 @@ for (let minion of minionsAdv) {
     messageContentAdv += `
     <div style="font-size: 1.1em; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
         <strong>${minion.name}:</strong>
-        <span style="font-size: 0.9em;">🎲 <b>${naturalRoll}</b> (Adv) + <b>${attackBonusAdv}</b></span>
+        <span style="font-size: 0.85em;">🎲 (${d1Str}, ${d2Str}) + <b>${attackBonusAdv}</b></span>
         <span style="color: ${color}; font-weight: bold; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; background: #eef;">
             = ${r.total}
         </span>${extra}
