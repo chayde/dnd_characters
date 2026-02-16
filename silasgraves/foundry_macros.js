@@ -2,6 +2,7 @@
  * Silas Graves - Foundry VTT Macros
  * 
  * VERSION HISTORY:
+ * v1.6 (2026-02-15): Updated Crit macro to show both individual d6 rolls.
  * v1.5 (2026-02-15): Updated Advantage macro to show both dice results.
  * v1.4 (2026-02-15): Updated Attack macros to show (Dice + Bonus) breakdown.
  * v1.3 (2026-02-15): Added 'Undead Squad Damage (CRIT)' macro with 2d6.
@@ -193,8 +194,12 @@ async function rollSkeletonCritDamage(hits) {
         let r = new Roll(damageFormula);
         await r.evaluate();
         totalDamage += r.total;
+        
+        // Extract individual d6 results
+        const diceResults = r.terms[0].results.map(res => res.result);
+        
         rollResults.push({
-            dice: r.terms[0].total,
+            dice: diceResults,
             total: r.total
         });
     }
@@ -207,7 +212,7 @@ async function rollSkeletonCritDamage(hits) {
         let res = rollResults[i];
         messageContent += `
         <div style="display: flex; justify-content: space-between; align-items: center; border: 1px solid #ccc; padding: 4px 8px; border-radius: 4px; background: #f9f9f9; margin-bottom: 4px;">
-            <span style="font-size: 0.9em;">Crit ${i+1}: 🎲 <b>${res.dice}</b> + <b>${bonus}</b></span>
+            <span style="font-size: 0.9em;">Crit ${i+1}: 🎲 (<b>${res.dice[0]}</b>, <b>${res.dice[1]}</b>) + <b>${bonus}</b></span>
             <span style="font-weight: bold; color: darkred; font-size: 1.1em;">= ${res.total}</span>
         </div>`;
     }
