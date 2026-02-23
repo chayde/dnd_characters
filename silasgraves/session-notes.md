@@ -1,5 +1,43 @@
 # Campaign Session Notes
 
+## Session: February 22, 2026
+**Campaign:** Curse of Strahd
+
+### Notes
+
+#### Level 8 Advancement
+Silas has reached level 8, marking a significant milestone in his magical power.
+- **HP Increase:** Silas HP increased to **58**.
+- **Ability Score Improvement:** Reached **20 Intelligence** (Max) via the **Shadow Touched** feat.
+- **New Spells:**
+  - **Invisibility** (2nd Level) - Gained via Shadow Touched feat.
+  - **False Life** (1st Level) - Gained via Shadow Touched feat.
+  - **Summon Undead** (3rd Level) - A more controlled and powerful form of necromancy.
+  - **Remove Curse** (3rd Level) - A tool to help those afflicted by Barovia's many blights.
+- **Spell Slots:** Gained an additional **4th-level spell slot** (2 total).
+- **Undead Buffs:** Undead thralls (Rose, Thorn, Mook, Yip, Yap) now have **+8 HP** and **+3 damage** (based on Wizard Level 8 and Proficiency +3).
+
+---
+
+## Session: December 28, 2025
+**Campaign:** Curse of Strahd
+
+#### Level 7 Advancement
+Between sessions, the party advanced to Level 7.
+- **HP Increase:** Silas HP increased to **51**.
+- **New Spells:**
+  - **Polymorph** (4th Level) - Massive utility and combat control.
+  - **Speak with Dead** (3rd Level) - Essential for investigation.
+- **Spell Slots:** Gained first **4th-level spell slot**.
+- **Undead Buffs:** Undead thralls (Rose, Thorn, Mook) gained +7 HP (from Wizard level) and maintain their +3 damage bonus.
+
+#### Combat Encounter: Spiders and Driders
+The party is currently engaged in combat with a large number of spiders and Driders.
+- **Silas's Role:** Crowd control (Fireball) and heavy mitigation (Polymorph).
+- **Tactics:** Using Fireball to clear swarms, keeping distance to avoid webbing, and preparing Polymorph to neutralize Drider tanks.
+
+---
+
 ## Session: November 2, 2025
 **Campaign:** Curse of Strahd
 
@@ -59,22 +97,3 @@ Silas now animates Mook as a zombie using Animate Dead, adding a third undead co
 1. Rose Durst (Skeleton)
 2. Thorn Durst (Skeleton)
 3. Mook (Zombie) - Former Revenant
-
----
-
-## Session: December 28, 2025
-**Campaign:** Curse of Strahd
-
-#### Level 7 Advancement
-Between sessions, the party advanced to Level 7.
-- **HP Increase:** Silas HP increased to **51**.
-- **New Spells:**
-  - **Polymorph** (4th Level) - Massive utility and combat control.
-  - **Speak with Dead** (3rd Level) - Essential for investigation.
-- **Spell Slots:** Gained first **4th-level spell slot**.
-- **Undead Buffs:** Undead thralls (Rose, Thorn, Mook) gained +7 HP (from Wizard level) and maintain their +3 damage bonus.
-
-#### Combat Encounter: Spiders and Driders
-The party is currently engaged in combat with a large number of spiders and Driders.
-- **Silas's Role:** Crowd control (Fireball) and heavy mitigation (Polymorph).
-- **Tactics:** Using Fireball to clear swarms, keeping distance to avoid webbing, and preparing Polymorph to neutralize Drider tanks.

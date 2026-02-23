@@ -8,6 +8,31 @@ This file tracks session-by-session progress on developing Silas Graves for the 
 
 ---
 
+## Session February 22, 2026 - Level 8 Advancement
+
+### Date
+February 22, 2026
+
+### Session Summary
+Silas reached Level 8. We updated his character statistics, HP, and spell selection. He took the **Shadow Touched** feat to maximize his Intelligence and gain additional utility spells.
+
+### Key Decisions Made
+- **Level 8 Feat:** **Shadow Touched** (+1 INT, Invisibility, False Life).
+- **Intelligence:** Increased to **20** (+5 modifier).
+- **HP Updated:** Increased to **58**.
+- **New Spells Learned:**
+  - **Summon Undead (3rd):** Thematic and versatile combat summon.
+  - **Remove Curse (3rd):** Vital utility for the Barovian setting.
+- **Prepared Spells:** Increased limit to **13**.
+
+### Changes to Character Files
+- **character-sheet.md:** Updated Level (8), HP (58), INT (20), Spell Slots (4/3/3/2), Prepared Count (13), added Shadow Touched feat.
+- **combatcheatsheet.md:** Updated stats (HP, Save DC, Attack Bonus) and added Level 8 features/spells.
+- **spells.md:** Added Level 8 spells, updated preparation lists and slot counts.
+- **build-plan.md:** Marked Level 8 as completed.
+
+---
+
 ## Session January 25, 2026 - Squad Expansion & Name Selection
 
 ### Date

@@ -6,7 +6,7 @@
 | **Armor Class** | 15 (Mage Armor) / 20 (with Shield reaction) |
 | **Initiative** | +2 |
 | **Speed** | 25 ft. |
-| **HP** | 57 |
+| **HP** | 58 |
 | **Spell Save DC** | 16 (8 + 3 prof + 5 INT) |
 | **Spell Attack Bonus** | +8 (+3 prof + 5 INT) |
 | **Grim Harvest** | Heal 2× spell level on kill (3× for Necromancy spells) |

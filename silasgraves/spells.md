@@ -473,5 +473,6 @@ Silas can cast these as rituals without preparing them (+10 min casting time, no
 - **Cantrips don't trigger Grim Harvest** (must be 1st level or higher)
 
 **Current necromancy spells that trigger Grim Harvest:**
-- None at level 4 (no necromancy spells in current list)
-- **Later additions:** Vampiric Touch (3rd), Blight (4th), etc.
+- **Vampiric Touch (3rd):** Heal 9 HP on kill.
+- **Ray of Enfeeblement (if learned later):** Heal 6 HP on kill.
+- **Note:** Animate Dead and Summon Undead do NOT trigger Grim Harvest as the minions deal the damage, not the spell itself.

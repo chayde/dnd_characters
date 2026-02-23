@@ -35,7 +35,7 @@
 **Armor Class:** 15 (Mage Armor + DEX)
 **Initiative:** +2
 **Speed:** 25 ft (Gnome)
-**Hit Points:** 57
+**Hit Points:** 58
 **Hit Dice:** 8d6
 **Proficiency Bonus:** +3 (Level 8)
 
