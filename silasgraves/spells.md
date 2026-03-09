@@ -259,25 +259,26 @@
 ## 5th-Level Spells in Spellbook (2 total)
 
 **Complete List:**
-1. Danse Macabre (Necromancy)
+1. Synaptic Static (Enchantment)
 2. Wall of Force (Evocation)
 
 ---
 
-### ✓ Danse Macabre (Necromancy) - *Learned at Level 9*
-**Casting Time:** 1 action | **Range:** 60 ft | **Duration:** Concentration, up to 1 hour
-**Components:** V, S
-- Up to five corpses you can see within range rise as skeletons or zombies.
-- They are under your control, and each gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier (**+5**).
-- **Tactical:** Massive damage output boost for Silas's "assistants".
+### ✓ Synaptic Static (Enchantment) - *Learned at Level 9*
+**Casting Time:** 1 action | **Range:** 120 ft | **Duration:** Instantaneous
+**Components:** V, S, M (a pinch of powder)
+- *Flavor: Silas's knowledge of death allows him to project the "final scream" of a fading soul.*
+- 20-foot-radius sphere centered on a point within range.
+- Each creature in the area makes an **Intelligence saving throw** (**DC 17**).
+- On failed save, target takes **8d6 psychic damage** and subtracts **1d4** from all attack rolls and ability checks for 1 minute.
+- **Diversity:** Psychic damage bypasses nearly all resistances in Barovia.
 
 ### ✓ Wall of Force (Evocation) - *Learned at Level 9*
 **Casting Time:** 1 action | **Range:** 120 ft | **Duration:** Concentration, up to 10 minutes
 **Components:** V, S, M (a pinch of powder made by crushing a clear gemstone)
-- An invisible wall of force springs into existence at a point you choose within range.
-- The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels.
-- Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by *Dispel Magic*.
-- **Control:** Premier "timeout" spell for dangerous enemies.
+- *Flavor: Silas calls forth an "Ethereal Grave-Glass" wall that exists between the physical and spirit worlds.*
+- An invisible, impenetrable barrier springs into existence. Nothing can physically pass through the wall.
+- **Control:** The ultimate way to divide the battlefield or trap a Vampire Lord.
 
 ---
 
@@ -285,43 +286,23 @@
 
 **Total Prepared:** 14 of 14 possible (INT modifier 5 + Wizard level 9 = 14 max)
 
-### Daily Preparation Lists
+### Daily Preparation List
 
-### Combat-Focused Preparation (With Undead Minions)
-**Prepared Spells (14):**
-1. **Mage Armor** (1st)
-2. **Shield** (1st)
-3. **False Life** (1st - from feat)
-4. **Magic Missile** (1st)
-5. **Darkbolt** (2nd)
-6. **Mirror Image** (2nd)
-7. **Misty Step** (2nd)
-8. **Animate Dead** (3rd)
-9. **Counterspell** (3rd)
-10. **Fireball** (3rd)
-11. **Vampiric Touch** (3rd)
-12. **Summon Undead** (3rd)
-13. **Danse Macabre** (5th)
-14. **Wall of Force** (5th)
-
----
-
-### Non-Combat/Exploration Preparation
 **Prepared Spells (14):**
 1. **Mage Armor** (1st)
 2. **Shield** (1st)
 3. **Magic Missile** (1st)
-4. **Misty Step** (2nd)
-5. **Invisibility** (2nd - from feat)
-6. **Counterspell** (3rd)
-7. **Hypnotic Pattern** (3rd)
-8. **Speak with Dead** (3rd)
-9. **Remove Curse** (3rd)
-10. **Polymorph** (4th)
+4. **Mirror Image** (2nd)
+5. **Misty Step** (2nd)
+6. **Darkbolt** (2nd)
+7. **Animate Dead** (3rd)
+8. **Counterspell** (3rd)
+9. **Fireball** (3rd)
+10. **Remove Curse** (3rd)
 11. **Summon Undead** (3rd)
-12. **Wall of Force** (5th)
-13. **Detect Magic** (1st ritual)
-14. **Identify** (1st ritual)
+12. **Polymorph** (4th)
+13. **Synaptic Static** (5th)
+14. **Wall of Force** (5th)
 
 ### Spell Slot Tracking
 **1st Level:** ○ ○ ○ ○ (4 slots)
@@ -332,7 +313,7 @@
 
 ### Arcane Recovery (1/day on short rest)
 Can recover spell slots up to combined level **5** (half wizard level rounded up).
-- Examples: One 5th-level slot, OR one 3rd + one 2nd-level slot.
+- Recommended: One 5th-level slot (Synaptic Static or Wall of Force).
 
 ---
 
@@ -353,40 +334,26 @@ Silas can cast these as rituals without preparing them (+10 min casting time, no
 ### 6th-Level Priority Spells (Level 11+)
 - **Disintegrate:** Massive damage and utility
 - **Globe of Invulnerability:** Defense against magic
-- **Mass Suggestion:** Mass control
 - **Create Undead:** Powerful permanent servants
 
 ---
 
 ## Spell Strategy Notes
 
-### Combat Opening (from combatblock.md)
-1. **If Mage Armor not active:** Cast it (should be active already from morning)
-2. **If facing multiple enemies:** Mirror Image for defense
-3. **If enemies clustered:** Sleep (if low HP) or Fireball
-4. **If single strong enemy:** Wall of Force or Position safely
+### Combat Opening
+1. **Mage Armor:** Should be up.
+2. **Divide & Conquer:** Use **Wall of Force** round 1 to trap or separate enemies.
+3. **Debuff:** Cast **Synaptic Static** to hammer the enemies' Intelligence and penalize their attacks (-1d4).
 
-### Damage Priority
-- **Injured enemies:** Toll the Dead (2d12 if wounded, 2d8 if healthy)
-- **Healthy single target:** Darkbolt (3d10 cold + reaction denial)
-- **Guaranteed damage:** Magic Missile (3d4+3, auto-hit)
-- **Multiple weak enemies:** Sleep
-- **Debuff setup:** Mind Sliver (2d6 psychic + target gets -1d4 on next save)
-- **Later levels:** Fireball for groups, Vampiric Touch for sustain, Danse Macabre for boss fights
+### Damage Diversity Breakdown
+- **Psychic:** Synaptic Static (AOE). Best against nearly everything.
+- **Force:** Wall of Force, Magic Missile. Bypasses all resistance.
+- **Cold:** Darkbolt. Denies reactions.
+- **Fire:** Fireball. Classic AOE.
+- **Necrotic:** Toll the Dead, Summon Undead. (Save for non-undead enemies).
 
 ### Defensive Layers
-1. **Prevention:** Stay 60+ ft from enemies, use Ink to scout, Wall of Force to divide
-2. **AC:** Mage Armor (AC 15) + Shield reaction (AC 20)
-3. **Misdirection:** Mirror Image (attacks hit duplicates)
-4. **Escape:** Misty Step (30 ft teleport as bonus action)
-
-### Grim Harvest Optimization
-- Grim Harvest triggers when you kill with a spell of 1st level or higher
-- **Necromancy spells** heal for 3× spell level
-- **Other spells** heal for 2× spell level
-- **Cantrips don't trigger Grim Harvest** (must be 1st level or higher)
-
-**Current necromancy spells that trigger Grim Harvest:**
-- **Vampiric Touch (3rd):** Heal 9 HP on kill.
-- **Danse Macabre (5th):** If the spell itself kills? (Unlikely, minions do the killing).
-- **Note:** Animate Dead and Summon Undead do NOT trigger Grim Harvest as the minions deal the damage, not the spell itself.
+1. **Wall of Force:** Create a dome or wall to physically block enemies.
+2. **Mirror Image:** Non-concentration defense.
+3. **Shield / Counterspell:** Reaction defense.
+4. **Misty Step:** Emergency repositioning.

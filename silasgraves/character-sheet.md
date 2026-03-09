@@ -136,10 +136,10 @@
 - 2nd level: 4 spells (+Invisibility from feat)
 - 3rd level: 8 spells (+Summon Undead, +Remove Curse)
 - 4th level: 1 spell (Polymorph)
-- 5th level: 2 spells (Danse Macabre, Wall of Force)
+- 5th level: 2 spells (Synaptic Static, Wall of Force)
 
 **Spells Prepared:** 14 of 14 max (INT mod 5 + Wizard level 9)
-- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Vampiric Touch, Polymorph, Summon Undead, Danse Macabre, Wall of Force
+- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Remove Curse, Polymorph, Summon Undead, Synaptic Static, Wall of Force
 - **Exploration-Focused:** Mage Armor, Shield, Magic Missile, Misty Step, Invisibility, Counterspell, Hypnotic Pattern, Speak with Dead, Polymorph, Summon Undead, Wall of Force, Remove Curse, Detect Magic (ritual), Identify (ritual)
 
 See `spells.md` for complete spell list, preparation strategy, and daily list details.

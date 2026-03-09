@@ -18,12 +18,11 @@
 - **Misty Step (BA):** Teleport 30 ft.
 
 ### Level 3-5 (The Big Guns)
-- **Fireball (150 ft):** 20 ft sphere. DEX save or **8d6** fire (half on success).
+- **Synaptic Static (AOE):** INT save or **8d6** Psychic + target -1d4 attack/ability checks. (Best for damage).
+- **Wall of Force:** Impenetrable barrier. No save. Use to trap enemies.
+- **Fireball (150 ft):** 20 ft sphere. DEX save or **8d6** fire.
 - **Summon Undead:** Ghost/Putrid/Skeletal. Attack **+9**, HP **45**.
-- **Vampiric Touch (Touch):** **3d6** necrotic + heal for half. (Grim Harvest: heal 9 on kill).
 - **Polymorph (60 ft):** Turn ally into Giant Ape (157 HP) or enemy into Frog (WIS save).
-- **Danse Macabre:** 5 corpses rise. Attack/Damage bonus **+5**.
-- **Wall of Force:** Impenetrable, indestructible barrier.
 
 ---
 
@@ -46,18 +45,17 @@
 
 ### 1. Pre-Combat / Round 1
 - **Mage Armor:** Should be up (lasts 8h).
-- **Minion Positioning:** Send Mook (Zombie) to front, Skeletons (Rose, Thorn, etc.) to mid-range.
-- **Defense:** Cast **Mirror Image** if multiple threats are close.
+- **Control Round 1:** Use **Wall of Force** to cut the fight in half.
+- **Debuff Round 2:** Cast **Synaptic Static** to hammer enemy stats.
 
-### 2. Control & Support
-- **Wall of Force:** Use to cut the battlefield in half or isolate a boss.
-- **Counterspell (Reaction):** Use to shut down enemy casters (CON save DC 17).
-- **Mind Sliver:** Use to help teammates land their big spells (-1d4 save).
+### 2. Damage Strategy
+- **If resistant to Necrotic:** Use **Synaptic Static** (Psychic) or **Fireball** (Fire).
+- **If high AC:** Use **Synaptic Static** (Save-based) or **Magic Missile** (Auto-hit).
+- **If enemy caster:** Use **Darkbolt** (Deny reactions) or **Counterspell**.
 
-### 3. Damage & Sustain
-- **Focus Fire:** Have all Skeletons target one enemy.
-- **Grim Harvest:** Try to get the "final blow" with a spell (1st+) to heal 2x-3x spell level.
-- **Vampiric Touch:** Use if cornered or low on HP to drain-tank.
+### 3. Survival
+- **Mirror Image:** Keep active if you are a target.
+- **Polymorph:** Use as a massive HP heal for yourself or an ally.
 
 ---
 
@@ -68,4 +66,3 @@
 
 ## Recovery
 - **Arcane Recovery (Short Rest):** Recover up to **5** levels of spell slots. (e.g., One 5th level OR one 3rd + one 2nd).
-- **Grim Harvest:** Heal when you kill with a leveled spell.
