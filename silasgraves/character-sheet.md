@@ -4,7 +4,7 @@
 
 **Name:** Silas Graves
 **Class:** Wizard (School of Necromancy)
-**Level:** 8
+**Level:** 9
 **Background:** Sage
 **Race:** Rock Gnome (2024 rules)
 **Alignment:** Neutral Good
@@ -24,8 +24,8 @@
 | STR     | 8    | -      | 8     | -1       | -1           |
 | DEX     | 14   | -      | 14    | +2       | +2           |
 | CON     | 14   | -      | 14    | +2       | +2           |
-| INT     | 17   | +2 +1  | 20    | +5       | **+8** (Prof)|
-| WIS     | 12   | -      | 12    | +1       | **+4** (Prof)|
+| INT     | 17   | +2 +1  | 20    | +5       | **+9** (Prof)|
+| WIS     | 12   | -      | 12    | +1       | **+5** (Prof)|
 | CHA     | 10   | -      | 10    | +0       | +0           |
 
 **Note:** INT boosted from 17 to 19 at Level 4 (ASI), then to 20 at Level 8 (Shadow Touched).
@@ -35,19 +35,19 @@
 **Armor Class:** 15 (Mage Armor + DEX)
 **Initiative:** +2
 **Speed:** 25 ft (Gnome)
-**Hit Points:** 58
-**Hit Dice:** 8d6
-**Proficiency Bonus:** +3 (Level 8)
+**Hit Points:** 64
+**Hit Dice:** 9d6
+**Proficiency Bonus:** +4 (Level 9)
 
 ## Proficiencies
 
 **Saving Throws:** Intelligence, Wisdom (Wizard)
 
 **Skills:**
-- Arcana (INT) +8 (proficient)
-- History (INT) +8 (proficient)
-- Investigation (INT) +8 (proficient)
-- Medicine (WIS) +4 (proficient)
+- Arcana (INT) +9 (proficient)
+- History (INT) +9 (proficient)
+- Investigation (INT) +9 (proficient)
+- Medicine (WIS) +5 (proficient)
 
 **Languages:** Common, Gnomish, Draconic, Infernal
 
@@ -67,15 +67,15 @@
 
 ### Class Features
 
-**Arcane Recovery (1/day):** Once per day during a short rest, recover spell slots with combined level equal to half wizard level (rounded up = 4). Cannot recover slots of 6th level or higher. Examples: four 1st-level slots, two 2nd-level slots, or one 4th-level slot.
+**Arcane Recovery (1/day):** Once per day during a short rest, recover spell slots with combined level equal to half wizard level (rounded up = 5). Cannot recover slots of 6th level or higher. Examples: five 1st-level slots, one 5th-level slot, or one 3rd + one 2nd-level slot.
 
 **Necromancy Savant:** Halved gold and time cost to copy necromancy spells into spellbook.
 
 **Grim Harvest (1/rest):** When you kill one or more creatures with a spell of 1st level or higher, regain HP equal to twice the spell's level (or three times for necromancy spells). Once per turn.
 
-**Undead Thralls (Level 6):** Animate Dead is added to your spellbook if not already there. Undead created with Animate Dead gain bonus HP equal to your wizard level (+8 HP at level 8) and add your proficiency bonus to damage rolls (+3 damage). When casting Animate Dead, you can target one additional corpse or pile of bones.
+**Undead Thralls (Level 6):** Animate Dead is added to your spellbook if not already there. Undead created with Animate Dead gain bonus HP equal to your wizard level (+9 HP at level 9) and add your proficiency bonus to damage rolls (+4 damage). When casting Animate Dead, you can target one additional corpse or pile of bones.
 
-**Spellcasting:** Can prepare INT modifier + wizard level spells (5 + 8 = 13 spells). Uses two daily preparation lists (combat-focused or exploration-focused).
+**Spellcasting:** Can prepare INT modifier + wizard level spells (5 + 9 = 14 spells). Uses two daily preparation lists (combat-focused or exploration-focused).
 
 **Ritual Casting:** Can cast wizard spells as rituals if they have the ritual tag and are in spellbook.
 
@@ -116,8 +116,8 @@
 ## Spellcasting
 
 **Spellcasting Ability:** Intelligence (+5 modifier)
-**Spell Save DC:** 16 (8 + 3 proficiency + 5 INT)
-**Spell Attack Bonus:** +8 (+3 proficiency + 5 INT)
+**Spell Save DC:** 17 (8 + 4 proficiency + 5 INT)
+**Spell Attack Bonus:** +9 (+4 proficiency + 5 INT)
 
 **Cantrips Known:** 8 total
 - 2 from Rock Gnome (Mending, Prestidigitation)
@@ -128,17 +128,19 @@
 - 1st level: 4 slots
 - 2nd level: 3 slots
 - 3rd level: 3 slots
-- 4th level: 2 slots
+- 4th level: 3 slots
+- 5th level: 1 slot
 
 **Spells in Spellbook:**
 - 1st level: 9 spells (4 are rituals, +False Life from feat)
 - 2nd level: 4 spells (+Invisibility from feat)
 - 3rd level: 8 spells (+Summon Undead, +Remove Curse)
 - 4th level: 1 spell (Polymorph)
+- 5th level: 2 spells (Danse Macabre, Wall of Force)
 
-**Spells Prepared:** 13 of 13 max (INT mod 5 + Wizard level 8)
-- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Vampiric Touch, Polymorph, Summon Undead, Remove Curse
-- **Exploration-Focused:** Mage Armor, Shield, Magic Missile, Misty Step, Invisibility, Counterspell, Hypnotic Pattern, Speak with Dead, Polymorph, Summon Undead, Remove Curse, Detect Magic (ritual), Identify (ritual)
+**Spells Prepared:** 14 of 14 max (INT mod 5 + Wizard level 9)
+- **Combat-Focused:** Mage Armor, Shield, Magic Missile, Darkbolt, Mirror Image, Misty Step, Animate Dead, Counterspell, Fireball, Vampiric Touch, Polymorph, Summon Undead, Danse Macabre, Wall of Force
+- **Exploration-Focused:** Mage Armor, Shield, Magic Missile, Misty Step, Invisibility, Counterspell, Hypnotic Pattern, Speak with Dead, Polymorph, Summon Undead, Wall of Force, Remove Curse, Detect Magic (ritual), Identify (ritual)
 
 See `spells.md` for complete spell list, preparation strategy, and daily list details.
 
@@ -151,7 +153,7 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 **AC:** 12
 **HP:** 1
 **Speed:** 10 ft., fly 50 ft.
-**Perception:** +3
+**Perception:** +4
 **Darkvision:** 60 ft.
 
 **Special:** Understands Common and Gnomish. Can deliver touch spells for Silas when within 100 ft. Telepathic bond.
@@ -160,41 +162,41 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 
 **Rose Durst** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **HP:** 22 (base 13 + 9 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Attacks:** Shortsword +7 (1d6+7 slashing), Shortbow +7 (1d6+7 piercing, range 80/320)
 - **Background:** Daughter of the Durst family, recovered from the Death House
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Thorn Durst** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **HP:** 22 (base 13 + 9 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Attacks:** Shortsword +7 (1d6+7 slashing), Shortbow +7 (1d6+7 piercing, range 80/320)
 - **Background:** Son of the Durst family, recovered from the Death House
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Yip** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **HP:** 22 (base 13 + 9 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Attacks:** Shortsword +7 (1d6+7 slashing), Shortbow +7 (1d6+7 piercing, range 80/320)
 - **Background:** Werewolf child raised by Silas
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Yap** (Skeleton - Undead Thralls Enhanced)
 - **AC:** 13
-- **HP:** 21 (base 13 + 8 from Undead Thralls)
+- **HP:** 22 (base 13 + 9 from Undead Thralls)
 - **Speed:** 30 ft.
-- **Attacks:** Shortsword +6 (1d6+6 slashing), Shortbow +6 (1d6+6 piercing, range 80/320)
+- **Attacks:** Shortsword +7 (1d6+7 slashing), Shortbow +7 (1d6+7 piercing, range 80/320)
 - **Background:** Werewolf child raised by Silas
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
 
 **Mook** (Zombie - Undead Thralls Enhanced)
 - **AC:** 8
-- **HP:** 30 (base 22 + 8 from Undead Thralls)
+- **HP:** 31 (base 22 + 9 from Undead Thralls)
 - **Speed:** 20 ft.
-- **Attacks:** Slam +4 (1d6+4 bludgeoning)
+- **Attacks:** Slam +5 (1d6+5 bludgeoning)
 - **Special:** Undead Fortitude - If damage reduces zombie to 0 HP, it makes CON save (DC 5 + damage taken). On success, drops to 1 HP instead.
 - **Background:** Former Revenant defeated in combat, claimed by Silas
 - **Maintenance:** Silas must cast Animate Dead daily to maintain control (24-hour duration)
@@ -202,5 +204,4 @@ See `spells.md` for complete spell list, preparation strategy, and daily list de
 **Silas's Treatment:** Views the squad as extended versions of their former selves, giving them continued purpose beyond death. Rose and Thorn represent tragic children given new meaning, Yip and Yap are his "wild pups," and Mook represents a restless spirit finally given peaceful service. Treats them respectfully as companions rather than mere tools.
 
 **Current Undead Count:** 5 of 5 maximum
-**Undead Thralls Bonus:** All animated undead gain +8 HP and +3 damage from Undead Thralls feature at level 8
-
+**Undead Thralls Bonus:** All animated undead gain +9 HP and +4 damage from Undead Thralls feature at level 9

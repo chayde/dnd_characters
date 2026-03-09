@@ -1,100 +1,71 @@
-# Combat Dashboard ⚔️ - Level 8 Necromancer
+# Silas Graves - Combat Cheatsheet
 
-## Quick Stats
-| Category | Notes |
-|-----------|--------|
-| **Armor Class** | 15 (Mage Armor) / 20 (with Shield reaction) |
-| **Initiative** | +2 |
-| **Speed** | 25 ft. |
-| **HP** | 58 |
-| **Spell Save DC** | 16 (8 + 3 prof + 5 INT) |
-| **Spell Attack Bonus** | +8 (+3 prof + 5 INT) |
-| **Grim Harvest** | Heal 2× spell level on kill (3× for Necromancy spells) |
+## Vital Stats
+**HP:** 64 | **AC:** 15 (Mage Armor) / 20 (Shield) | **Init:** +2 | **Speed:** 25 ft.
+**Prof Bonus:** +4 | **Spell DC:** 17 | **Spell Attack:** +9
 
-## Offensive Power
-| Spell/Attack | Damage/Effect | Notes |
-|--------------|---------------|-------|
-| **Toll the Dead** | 2d12 (injured) / 2d8 | Wis Save. Best cantrip damage. |
-| **Chill Touch** | 2d10 Necrotic | Melee (Touch). Stops healing. |
-| **Darkbolt** (2nd) | 3d10 Cold | Ranged Attack. DC 16 Con or lose Reaction. |
-| **Fireball** (3rd) | 8d6 Fire | Dex Save. 20ft radius. |
-| **Vampiric Touch** (3rd) | 3d6 Necrotic | Melee. Heal half damage. |
-| **Summon Undead** (3rd) | Varies | Ghost/Skeleton/Putrid. Concentration. |
-| **Polymorph** (4th) | Transform | Giant Ape (Ally) or Turtle/Frog (Enemy). |
-| **Remove Curse** (3rd) | Utility | End all curses on touch. |
+## Core Combat Actions
 
-## Undead Companions (Undead Thralls: +8 HP, +3 Dmg)
-| Name | Type | AC | HP | Attack | Damage | Note |
-|------|------|----|----|--------|--------|------|
-| **Rose** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
-| **Thorn** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
-| **Yip** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
-| **Yap** | Skeleton | 13 | 21 | +6 | 1d6+6 | Shortbow (Range 80/320) |
-| **Mook** | Zombie | 8 | 30 | +4 | 1d6+4 | Melee Tank (Undead Fortitude) |
+### Cantrips (Primary Attacks)
+- **Toll the Dead (60 ft):** WIS save or **2d12** necrotic (wounded) / **2d8** (full HP)
+- **Chill Touch (Touch):** **2d10** necrotic. Target can't heal until next turn. Disadv. for undead against you.
+- **Mind Sliver (60 ft):** INT save or **2d6** psychic + target -1d4 on next save.
+
+### Level 1-2 (Reliable & Defensive)
+- **Magic Missile:** 3 darts, auto-hit **1d4+1** force each. (Scale: +1 dart/level)
+- **Darkbolt (60 ft):** 3 rays, +9 hit. Each **1d10** cold. CON save or no reactions.
+- **Mirror Image:** 3 duplicates. Attacks have chance to hit them instead. (No Conc)
+- **Misty Step (BA):** Teleport 30 ft.
+
+### Level 3-5 (The Big Guns)
+- **Fireball (150 ft):** 20 ft sphere. DEX save or **8d6** fire (half on success).
+- **Summon Undead:** Ghost/Putrid/Skeletal. Attack **+9**, HP **45**.
+- **Vampiric Touch (Touch):** **3d6** necrotic + heal for half. (Grim Harvest: heal 9 on kill).
+- **Polymorph (60 ft):** Turn ally into Giant Ape (157 HP) or enemy into Frog (WIS save).
+- **Danse Macabre:** 5 corpses rise. Attack/Damage bonus **+5**.
+- **Wall of Force:** Impenetrable, indestructible barrier.
 
 ---
 
-## Defensive & Stealth Utility
-*   **False Life:** Gain 1d4+4 Temporary HP (Cast once/day free via feat).
-*   **Invisibility:** Become invisible (Cast once/day free via feat).
-*   **Mage Armor:** Base defense (AC 15).
-*   **Shield:** Reaction to boost AC to 20.
-*   **Mirror Image:** No-concentration defensive duplicates.
-*   **Remove Curse:** End debilitating curses.
+## The Undead Squad (Undead Thralls)
+*Bonuses: +9 HP, +4 Damage included below*
+
+### Skeletons (Rose, Thorn, Yip, Yap)
+- **AC:** 13 | **HP:** 22
+- **Shortsword:** +7 to hit, **1d6+7** slashing
+- **Shortbow:** +7 to hit, **1d6+7** piercing (80/320 ft)
+
+### Zombie (Mook)
+- **AC:** 8 | **HP:** 31
+- **Slam:** +5 to hit, **1d6+5** bludgeoning
+- **Undead Fortitude:** If drops to 0 HP, CON save (DC 5 + damage) to stay at 1 HP.
 
 ---
 
-## Standard Combat Routine
+## Tactical Priorities
 
-### Round 1: Setup & Control
-*   **Action:** 
-    *   *Need a Minion?* **Summon Undead** (Concentration).
-    *   *Big Threat?* **Polymorph** (Enemy -> Frog) or **Hypnotic Pattern**.
-    *   *Swarm?* **Fireball**.
-    *   *Defense Needed?* **Mirror Image** (No concentration).
-*   **Bonus Action:** Command Undead ("Attack!").
-*   **Reaction:** Save for **Counterspell** or **Shield**.
+### 1. Pre-Combat / Round 1
+- **Mage Armor:** Should be up (lasts 8h).
+- **Minion Positioning:** Send Mook (Zombie) to front, Skeletons (Rose, Thorn, etc.) to mid-range.
+- **Defense:** Cast **Mirror Image** if multiple threats are close.
 
-### Round 2+: Sustain & Damage
-*   **Attack:** Use *Darkbolt*, *Toll the Dead*, or *Vampiric Touch*.
-*   **Utility:** Use *Misty Step*, *Invisibility*, or *Remove Curse*.
+### 2. Control & Support
+- **Wall of Force:** Use to cut the battlefield in half or isolate a boss.
+- **Counterspell (Reaction):** Use to shut down enemy casters (CON save DC 17).
+- **Mind Sliver:** Use to help teammates land their big spells (-1d4 save).
 
----
-
-## Daily & Rest Cheatsheet
-
-### Daily Maintenance
-1.  **Undead:** Cast *Animate Dead* (3rd level) twice or once with a higher slot to maintain control of Rose, Thorn, Yip, Yap, and Mook.
-2.  **Armor:** Cast *Mage Armor* (1st level).
-3.  **Bolster:** Cast *False Life* (Free via Shadow Touched).
-4.  **Scout:** Send Ink (Raven) ahead.
-
-### Short Rest
-*   **Arcane Recovery:** Recover up to **4 levels** of slots (e.g., one 4th-level slot).
-
-### Long Rest
-*   **Prepare Spells:** Select 13 spells.
-*   **Reset:** Regain all slots (4/3/3/2) and HP.
+### 3. Damage & Sustain
+- **Focus Fire:** Have all Skeletons target one enemy.
+- **Grim Harvest:** Try to get the "final blow" with a spell (1st+) to heal 2x-3x spell level.
+- **Vampiric Touch:** Use if cornered or low on HP to drain-tank.
 
 ---
 
-## Foundry VTT Macros 🛠️
+## Reactions
+- **Shield:** +5 AC (Total 20) until next turn.
+- **Counterspell:** Stop enemy spell (CON save DC 17).
+- **Absorb Elements:** Half damage from elemental source.
 
-**Undead Squad Attack (Script Macro):**
-*Full script saved in `foundry_macros.js`*
-- Rolls 3 attacks (+5) for Rose, Thorn, and Mook simultaneously.
-- Detects Crits and Fumbles.
-
-**Mage Armor Toggle (Script Macro):**
-```javascript
-const actor = canvas.tokens.controlled[0]?.actor || game.user.character;
-if (!actor) return ui.notifications.warn("Please select a token!");
-const isMageArmor = actor.system.attributes.ac.calc === "mage";
-if (isMageArmor) {
-    await actor.update({"system.attributes.ac.calc": "default"});
-    ui.notifications.info("Mage Armor OFF (Returning to Default)");
-} else {
-    await actor.update({"system.attributes.ac.calc": "mage"});
-    ui.notifications.info("Mage Armor ON (13 + Dex)");
-}
-```
+## Recovery
+- **Arcane Recovery (Short Rest):** Recover up to **5** levels of spell slots. (e.g., One 5th level OR one 3rd + one 2nd).
+- **Grim Harvest:** Heal when you kill with a leveled spell.

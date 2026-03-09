@@ -104,9 +104,9 @@
 - WIS 12
 - CHA 10
 
-## Future Levels (9-12 Planning)
+## Level 9-12 Progression
 
-### Level 9
+### Level 9 ✓
 - **5th-Level Spells unlocked**
 - **Priority Spells:**
   - **Danse Macabre:** Massive damage boost for small groups of undead.
