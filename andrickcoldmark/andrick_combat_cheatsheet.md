@@ -1,6 +1,6 @@
 # Andrick Coldmark (Battle Master) - Combat Cheatsheet
 
-**Level 6** | AC 19 (Disadvantage to hit you) | HP 76 | Speed 30ft
+**Level 6** | AC 19 (Disadvantage to hit you) | HP 82 | Speed 30ft
 
 ---
 
@@ -38,6 +38,7 @@
 | **Enemy MISSES you** | **RIPOSTE** (1 Sup. Die) | **Attack them immediately.** Add 1d8 to damage. |
 | **Enemy moves away** | **SENTINEL / Opp. Attack** | Attack them. Their speed becomes 0. Use **Topple** to pin them. |
 | **Enemy hits you** | **Cloak of Displacement** | *(Passive)* They have Disadvantage. If they hit, effect turns off until next turn. |
+| **Adjacent enemy casts a spell** | **MAGE SLAYER** | Attack them immediately. If concentrating, they roll Disadvantage on the CON save. |
 
 ---
 

@@ -13,10 +13,10 @@
 ### Ability Scores & Modifiers
 | **STR** | **DEX** | **CON** | **INT** | **WIS** | **CHA** |
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| **20 (+5)** | **16 (+3)** | **18 (+4)** | **14 (+2)** | **15 (+2)** | **5 (-3)** |
+| **20 (+5)** | **17 (+3)** | **20 (+5)** | **14 (+2)** | **15 (+2)** | **5 (-3)** |
 
 ### Core Stats
-- **Hit Points:** 76 (10 + 5d10 + 24 CON + 12 Tough)
+- **Hit Points:** 82 (10 + 5d10 + 30 CON + 12 Tough)
 - **Armor Class:** 19 (Plate 18 + Defense 1) | **Disadvantage to be hit** (Cloak of Displacement)
 - **Initiative:** +6 (DEX +3, Alert +3)
 - **Speed:** 30 ft.
@@ -27,7 +27,7 @@
 ### Saving Throws
 | **STR** | **DEX** | **CON** | **INT** | **WIS** | **CHA** |
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| **+8**  | +3      | **+7**  | +2      | +2      | -3      |
+| **+8**  | +3      | **+8**  | +2      | +2      | -3      |
 *(Proficient in Strength and Constitution)*
 
 ### Skills
@@ -110,7 +110,11 @@
 - **Tough (Origin):** +2 HP per level. (+12 HP total).
 - **Alert (Origin):** +Proficiency to Initiative (+6 total). Can swap initiative.
 - **Crusher (Level 4):** +1 CON. Push enemy 5ft on bludgeoning hit. Crits grant Advantage to allies.
-- **Sentinel (Level 6):** +1 STR. 
+- **Mage Slayer (Auril's Gift):** +1 DEX.
+    - **Reaction Strike:** When a creature within 5ft casts a spell, you can use your Reaction to make a melee weapon attack against them.
+    - **Concentration Breaker:** When you damage a concentrating creature, it has Disadvantage on the save to maintain concentration.
+    - **Spell Resistance:** Advantage on saving throws against spells cast by creatures within 5ft.
+- **Sentinel (Level 6):** +1 STR.
     - **Speed to 0:** When you hit a creature with an Opportunity Attack, its speed becomes 0 for the rest of the turn.
     - **Disengage Ignored:** Creatures provoke Opportunity Attacks even if they take the Disengage action.
     - **Reaction Strike:** When a creature within 5ft makes an attack against a target other than you, you can use your Reaction to make a melee weapon attack against the attacking creature.
@@ -175,6 +179,17 @@ Andrick was raised within the Tribe of the Elk, one of the nomadic Reghed tribes
 Andrick’s world revolved around his older sister, **Anika**. To Andrick, Anika was—and is—perfect. She possessed the grace, social ease, and leadership he lacked. Whenever members of the tribe mistreated or mocked Andrick for his silence or social awkwardness, Anika was his fierce protector. He idolized her, seeing her as someone who could do no wrong.
 
 
+
+### The Mark of Auril
+
+During the events of the Rime of the Frostmaiden, Andrick swore himself as a servant to **Auril, the Frostmaiden** — goddess of winter, cold, and isolation. In exchange for his oath, Auril marked him with her power, granting him two boons:
+
+- **+2 Constitution** — his body hardened by Auril's cold, made more durable than any mortal forging could achieve.
+- **Mage Slayer** — a supernatural instinct to cut through magic, gifted by a goddess who values dominance over arcane forces.
+
+Andrick did not accept this deal for ambition. He accepted it because the cold never lies, and a goddess who demands silence asks little more of him than he already gives.
+
+---
 
 ### The Vow of Protection
 
